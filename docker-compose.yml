@@ -1,0 +1,133 @@
+name: lengua-lsp
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghcr.io/bymatt10/lengua-lsp/app:${TAG:-latest}
+    container_name: lsp-app
+    restart: unless-stopped
+    environment:
+      FLASK_ENV: production
+      LSN_SECRET: ${LSN_SECRET:?LSN_SECRET es obligatorio}
+      LSN_SESSION_TTL: ${LSN_SESSION_TTL:-86400}
+      LSN_RETENTION_DAYS: ${LSN_RETENTION_DAYS:-30}
+      GUNICORN_WORKERS: ${GUNICORN_WORKERS:-2}
+      PYTHONUNBUFFERED: "1"
+    volumes:
+      - lsp_data:/app/dataset_contrib
+      - lsp_logs:/app/logs
+    networks:
+      - lsp_internal
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:5000/health', timeout=3).status == 200 else 1)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_BIND_SERVICE
+    read_only: false
+    tmpfs:
+      - /tmp:size=64M,mode=1777
+    user: "10001:10001"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 2G
+
+  cron:
+    build:
+      context: .
+      dockerfile: docker/cron/Dockerfile
+    image: ghcr.io/bymatt10/lengua-lsp/cron:${TAG:-latest}
+    container_name: lsp-cron
+    restart: unless-stopped
+    environment:
+      PYTHONUNBUFFERED: "1"
+      LSN_RETENTION_DAYS: ${LSN_RETENTION_DAYS:-30}
+      PYTHONPATH: /app
+    volumes:
+      - lsp_data:/app/dataset_contrib
+      - lsp_logs:/app/logs
+    networks:
+      - lsp_internal
+    depends_on:
+      app:
+        condition: service_healthy
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    user: "10002:10002"
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "3"
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 512M
+
+  nginx:
+    build:
+      context: .
+      dockerfile: docker/nginx/Dockerfile
+    image: ghcr.io/bymatt10/lengua-lsp/nginx:${TAG:-latest}
+    container_name: lsp-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - lsp_www:/var/www/certbot:ro
+      - ./letsencrypt:/etc/letsencrypt:ro
+    networks:
+      - lsp_internal
+      - lsp_public
+    depends_on:
+      app:
+        condition: service_healthy
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_BIND_SERVICE
+      - CHOWN
+      - SETUID
+      - SETGID
+      - DAC_OVERRIDE
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  lsp_internal:
+    driver: bridge
+    internal: false
+  lsp_public:
+    driver: bridge
+
+volumes:
+  lsp_data:
+    name: lsp_dataset_contrib
+  lsp_logs:
+    name: lsp_logs
+  lsp_www:
+    name: lsp_certbot_www

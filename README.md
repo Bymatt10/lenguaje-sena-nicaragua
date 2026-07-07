@@ -63,12 +63,24 @@ Red neuronal LSTM que traduce **Lengua de Señas Nicaragüense (LSN)** a texto y
 ├── requirements-dev.txt      # Deps desarrollo (pip-audit, linters)
 ├── gunicorn.conf.py          # WSGI production server
 ├── .env.example              # Variables de entorno
+├── Dockerfile                # Backend Flask multi-stage
+├── docker-compose.yml        # nginx + app + cron
+├── Jenkinsfile               # CI/CD: build, push, deploy
+├── .dockerignore             # Exclusiones para build
 ├── models/                   # Modelos .keras + MODEL_HASHES.txt
 ├── web/                      # Frontend (HTML/CSS/JS + TFJS)
+├── docker/
+│   ├── nginx/
+│   │   ├── Dockerfile
+│   │   └── nginx.conf        # Reverse proxy con cabeceras de seguridad
+│   └── cron/
+│       ├── Dockerfile
+│       └── crontab.txt       # auto_retrain + purge + validate
 ├── deploy/
-│   ├── nginx.conf            # Reverse proxy con cabeceras de seguridad
-│   └── systemd/
-│       └── lengua-lsp.service # Servicio systemd endurecido
+│   ├── nginx.conf            # Reverse proxy sin Docker (systemd)
+│   ├── systemd/
+│   │   └── lengua-lsp.service # Servicio systemd endurecido
+│   └── DOCKER.md             # Guía de despliegue con Docker
 ├── tools/
 │   ├── audit_deps.sh         # pip-audit
 │   ├── purge_dataset_contrib.py # Limpieza por antigüedad
@@ -97,6 +109,27 @@ Red neuronal LSTM que traduce **Lengua de Señas Nicaragüense (LSN)** a texto y
 5. `auto_retrain.py` corre como cron, valida todo `dataset_contrib/`, mueve inválidos a `quarantine/`, mide LOSO, y reentrena+sube a `web/model/` **sólo si el LOSO no cae**.
 
 ## Despliegue (VPS con nginx + HTTPS)
+
+### Opción A: Docker + Jenkins (recomendado)
+
+```bash
+# VPS, primera vez
+sudo apt install docker.io docker-compose-plugin certbot
+sudo mkdir -p /srv/lengua-lsp/letsencrypt
+sudo certbot certonly --standalone -d lenguaje.chepeonline.com
+sudo cp -RL /etc/letsencrypt /srv/lengua-lsp/letsencrypt/
+cd /srv/lengua-lsp && git clone git@github.com:Bymatt10/lenguaje-sena-nicaragua.git .
+cp .env.example .env && sed -i "s|replace-with-openssl-rand-hex-32|$(openssl rand -hex 32)|" .env && chmod 600 .env
+docker compose up -d
+docker compose ps
+curl -fsS https://lenguaje.chepeonline.com/health
+```
+
+El `Jenkinsfile` en la raíz hace: lint → audit deps → build 3 imágenes → push a `ghcr.io/bymatt10/lengua-lsp/{app,nginx,cron}` → deploy vía SSH al VPS → smoke test en `/health`. Credenciales Jenkins necesarias: `github-container-registry` (PAT) y `vps-ssh-key`.
+
+Documentación detallada: [`deploy/DOCKER.md`](deploy/DOCKER.md).
+
+### Opción B: Bare-metal (systemd)
 
 ### 1. Clonar
 

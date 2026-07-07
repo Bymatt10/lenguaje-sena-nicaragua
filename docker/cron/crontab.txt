@@ -1,0 +1,8 @@
+SHELL=/bin/sh
+PATH=/usr/local/bin:/usr/bin:/bin
+PYTHONPATH=/app
+LSN_RETENTION_DAYS=30
+
+0 3 * * * /usr/local/bin/python /app/tools/purge_dataset_contrib.py >> /app/logs/purge.log 2>&1
+30 3 * * * /usr/local/bin/python /app/auto_retrain.py >> /app/logs/auto_retrain.log 2>&1
+*/15 * * * * /usr/local/bin/python /app/tools/validate_contrib_folder.py /app/dataset_contrib >> /app/logs/validate.log 2>&1
