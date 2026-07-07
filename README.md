@@ -37,6 +37,87 @@ Red neuronal LSTM que traduce **Lengua de Señas Nicaragüense (LSN)** a texto y
                             └─────────────────────┘
 ```
 
+## Cómo correr el proyecto
+
+### 1. Probar la web (sin backend, solo el traductor en el navegador)
+
+El frontend hace toda la inferencia con TFJS + MediaPipe en el navegador, así que puedes abrirlo sin servidor.
+
+```bash
+git clone git@github.com:Bymatt10/lenguaje-sena-nicaragua.git
+cd lenguaje-sena-nicaragua
+python3 -m http.server 8000 --directory web
+# Abre http://localhost:8000 en Chrome/Edge (HTTPS no es necesario para getUserMedia en localhost)
+```
+
+> ⚠️ La cámara puede no funcionar si abres `file://` directamente en algunos navegadores. Usa siempre `http://localhost`.
+
+### 2. Correr backend + web juntos (desarrollo local)
+
+Necesitas dos procesos: Flask en `:5000` y la web estática en `:8000`.
+
+```bash
+python3.10 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements-dev.txt
+
+# Genera un secret aleatorio (cualquier valor sirve en dev)
+export LSN_SECRET=$(python3 -c "import secrets;print(secrets.token_hex(32))")
+export FLASK_ENV=development
+
+# Terminal 1: backend Flask (incluye /contribute, /session, /feedback)
+python server.py
+
+# Terminal 2: frontend estático
+python -m http.server 8000 --directory web
+```
+
+La web en `http://localhost:8000` automáticamente hará `fetch('http://localhost:5000/contribute')` que, por la política same-origin con CORS abierto en modo dev, funcionará.
+
+> En producción ambos servicios los sirve nginx desde el mismo dominio (`https://lenguaje.chepeonline.com`), por eso no hay CORS.
+
+### 3. Todo con Docker (recomendado para producción)
+
+```bash
+cp .env.example .env
+sed -i "s|replace-with-openssl-rand-hex-32|$(openssl rand -hex 32)|" .env
+chmod 600 .env
+
+docker compose up -d --build
+docker compose ps
+curl -fsS http://localhost/health
+# Abre http://localhost en el navegador
+```
+
+Para HTTPS real con Let's Encrypt, ver la sección **Despliegue → Opción A** más abajo.
+
+### 4. Probar un script individual (sin servidor)
+
+```bash
+source .venv/bin/activate
+
+# Capturar muestras con la webcam (genera frame_actions/<palabra>/<n>.jpg)
+python capture_samples.py
+
+# Normalizar muestras a la misma cantidad de frames
+python normalize_samples.py
+
+# Convertir muestras a .h5 (keypoints) por palabra
+python create_keypoints.py
+
+# Entrenar el modelo
+python train_v2.py
+
+# Medir calidad con Leave-One-Subject-Out (debe dar >85% para desplegar)
+python evaluate_loso.py
+
+# Probar el modelo con la webcam (interfaz OpenCV, sin servidor)
+python evaluate_model.py
+
+# Lanzar la GUI PyQt5
+python main.py
+```
+
 ## Privacidad
 
 - La cámara **nunca se sube** al servidor. La inferencia corre en el navegador.
@@ -93,12 +174,30 @@ Red neuronal LSTM que traduce **Lengua de Señas Nicaragüense (LSN)** a texto y
 
 ## SCRIPTS PRINCIPALES (uso local / GUI)
 
-- `capture_samples.py` → captura muestras y las guarda en `frame_actions/`.
-- `normalize_samples.py` → normaliza muestras a la misma cantidad de frames.
-- `create_keypoints.py` → genera los `.h5` por palabra para entrenar.
-- `training_model.py` / `train_v2.py` → entrena la LSTM.
-- `evaluate_model.py` → prueba el modelo desde un video o webcam.
-- `main.py` → GUI PyQt5 del traductor.
+Pipeline para entrenar el modelo desde cero, en orden:
+
+| Paso | Script | Qué hace |
+|---|---|---|
+| 1 | `capture_samples.py` | Captura fotogramas de la webcam por cada palabra → `frame_actions/<palabra>/<n>.jpg` |
+| 2 | `normalize_samples.py` | Normaliza todas las muestras a la misma cantidad de frames |
+| 3 | `create_keypoints.py` | Extrae los 1662 keypoints por frame con MediaPipe → `data/keypoints/*.h5` |
+| 4 | `train_v2.py` (o `training_model.py`) | Entrena la LSTM → `models/actions_v2.keras` |
+| 5 | `evaluate_loso.py` | Mide calidad con Leave-One-Subject-Out (objetivo: ≥85%) |
+| 6 | `evaluate_model.py` | Prueba el modelo en vivo (consola, sin servidor) |
+| 7 | `main.py` | GUI PyQt5 del traductor |
+
+```bash
+source .venv/bin/activate
+
+python capture_samples.py    # seguir el menú interactivo
+python normalize_samples.py
+python create_keypoints.py
+python train_v2.py
+python evaluate_loso.py
+python evaluate_model.py     # webcam en vivo
+# o
+python main.py               # GUI
+```
 
 ## Pipeline web (captura → reentrenamiento)
 
@@ -206,15 +305,39 @@ pip install -r requirements-dev.txt
 
 ## Desarrollo local
 
+Ver la sección **Cómo correr el proyecto → Opción 2** más arriba. Resumen rápido:
+
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements-dev.txt
 
-# servidor de desarrollo
-FLASK_ENV=development LSN_SECRET=dev-secret .venv/bin/python server.py
+# Genera LSN_SECRET aleatorio (en dev puede ser cualquiera)
+export LSN_SECRET=$(python3 -c "import secrets;print(secrets.token_hex(32))")
+export FLASK_ENV=development
 
-# frontend: abrir web/index.html directamente o servirlo con
-python3 -m http.server 8000 --directory web
+# Terminal 1
+python server.py
+
+# Terminal 2
+python -m http.server 8000 --directory web
+```
+
+### Verificar la instalación
+
+```bash
+# Backend responde
+curl -fsS http://localhost:5000/health
+# → {"ok":true,"service":"lsp-contrib","version":"2.0"}
+
+# Token de sesión (necesario para POST /contribute)
+curl -fsS -c /tmp/cookies http://localhost:5000/session
+# → {"expires":"...","token":"..."}
+
+# Validar el dataset actual
+python tools/validate_contrib_folder.py dataset_contrib/
+
+# Auditoría de vulnerabilidades en deps
+./tools/audit_deps.sh
 ```
 
 ## Cómo añadir una nueva seña
