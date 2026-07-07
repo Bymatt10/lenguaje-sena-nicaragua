@@ -14,7 +14,10 @@ def create_keypoints(word_id, words_path, hdf_path):
     
     with Holistic() as holistic:
         print(f'Creando keypoints de "{word_id}"...')
-        sample_list = os.listdir(frames_path)
+        sample_list = sorted(
+            name for name in os.listdir(frames_path)
+            if os.path.isdir(os.path.join(frames_path, name))
+        )
         sample_count = len(sample_list)
         
         for n_sample, sample_name in enumerate(sample_list, start=1):
@@ -32,7 +35,10 @@ if __name__ == "__main__":
     create_folder(KEYPOINTS_PATH)
     
     # GENERAR TODAS LAS PALABRAS
-    word_ids = [word for word in os.listdir(os.path.join(ROOT_PATH, FRAME_ACTIONS_PATH))]
+    word_ids = [
+        word for word in os.listdir(os.path.join(ROOT_PATH, FRAME_ACTIONS_PATH))
+        if os.path.isdir(os.path.join(FRAME_ACTIONS_PATH, word))
+    ]
     
     # GENERAR PARA UNA PALABRA O CONJUNTO
     # word_ids = ["bien"]

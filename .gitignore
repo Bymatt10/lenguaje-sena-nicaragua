@@ -1,9 +1,26 @@
+.venv
 .vscode
 .test
 __pycache__
 tmp
-# samples
+logs
+# samples (privacidad: nunca subir datos biométricos)
 frame_actions
 data
-videos
+dataset_contrib/
+dataset_contrib/**
+dataset_videos/
+dataset_videos/**
+/videos
+web/videos/*.mp4
+web/videos/muestras_lsn_*.json
 .old
+# secretos y configuración local
+.env
+.env.local
+*.key
+*.pem
+# IDEs y otros
+.idea
+.DS_Store
+web/videos/senas.mp4

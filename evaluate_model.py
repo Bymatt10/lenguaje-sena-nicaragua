@@ -80,7 +80,8 @@ def evaluate_model(src=None, threshold=0.8, margin_frame=1, delay_frames=3):
                         
                         sent = words_text.get(word_id)
                         sentence.insert(0, sent)
-                        text_to_speech(sent) # ONLY LOCAL (NO SERVER)
+                        if not src:
+                            text_to_speech(sent) # ONLY LOCAL (NO SERVER)
                 
                 recording = False
                 fix_frames = 0

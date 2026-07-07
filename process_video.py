@@ -45,7 +45,7 @@ def process_video(input_path, target_fps=12):
             break
         
         # Saltarse los frames necesarios para tener la tasa deseada
-        if frames_written % round(original_fps / target_fps) == 0:
+        if frames_written % max(1, round(original_fps / target_fps)) == 0:
             
             # Recortar con los puntos de corte
             frame_recortado = frame[top_cut:bottom_cut, left_cut:right_cut]

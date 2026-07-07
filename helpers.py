@@ -81,13 +81,22 @@ def extract_keypoints(results):
     rh = np.array([[res.x, res.y, res.z] for res in results.right_hand_landmarks.landmark]).flatten() if results.right_hand_landmarks else np.zeros(21*3)
     return np.concatenate([pose, face, lh, rh])
 
+def sort_frame_names(names):
+    '''
+    Ordena nombres de frames numéricamente ("2.jpg" antes que "10.jpg"),
+    ya que os.listdir no garantiza ningún orden.
+    '''
+    digits = lambda name: int(''.join(c for c in name if c.isdigit()) or 0)
+    return sorted(names, key=digits)
+
 def get_keypoints(model, sample_path):
     '''
     ### OBTENER KEYPOINTS DE LA MUESTRA
     Retorna la secuencia de keypoints de la muestra
     '''
     kp_seq = np.array([])
-    for img_name in os.listdir(sample_path):
+    frame_names = sort_frame_names(n for n in os.listdir(sample_path) if n.endswith('.jpg'))
+    for img_name in frame_names:
         img_path = os.path.join(sample_path, img_name)
         frame = cv2.imread(img_path)
         results = mediapipe_detection(frame, model)
