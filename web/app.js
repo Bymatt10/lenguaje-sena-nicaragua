@@ -116,10 +116,12 @@ async function loadModelFromBin() {
 
   // misma arquitectura que train_v2.py
   // recurrentActivation explícito: TFJS usa hardSigmoid por defecto, Keras usa sigmoid
+  // recurrentInitializer 'zeros': el orthogonal por defecto es carísimo (congela Brave)
+  // y de todos modos setWeights lo sobrescribe abajo
   const m = tf.sequential();
-  m.add(tf.layers.lstm({ units: 64, returnSequences: true, recurrentActivation: 'sigmoid', inputShape: [modelFrames, lengthKeypoints] }));
+  m.add(tf.layers.lstm({ units: 64, returnSequences: true, recurrentActivation: 'sigmoid', recurrentInitializer: 'zeros', inputShape: [modelFrames, lengthKeypoints] }));
   m.add(tf.layers.dropout({ rate: 0.4 }));
-  m.add(tf.layers.lstm({ units: 128, returnSequences: false, recurrentActivation: 'sigmoid' }));
+  m.add(tf.layers.lstm({ units: 128, returnSequences: false, recurrentActivation: 'sigmoid', recurrentInitializer: 'zeros' }));
   m.add(tf.layers.dropout({ rate: 0.4 }));
   m.add(tf.layers.dense({ units: 64, activation: 'relu' }));
   m.add(tf.layers.dense({ units: wordIds.length, activation: 'softmax' }));
