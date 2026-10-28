@@ -50,6 +50,8 @@ print('api OK')"
                 sh '''
                     docker run --rm --network none "$APP_NAME-web:$IMAGE_TAG" sh -ec '
                         nginx -t
+                        # nginx sirve como usuario sin privilegios: todo debe ser legible
+                        test -z "$(find /usr/share/nginx/html ! -perm -o+r | head -1)"
                         for f in index.html app.js style.css words.json lessons.json signs_anim.json \
                                  model/weights.bin model/weights_spec.json model/centroids.json \
                                  model/reference.json model/metrics.json; do
