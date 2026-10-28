@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="no-referrer">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'unsafe-eval' https://cdn.jsdelivr.net; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' data: blob:; font-src 'self' https://cdnjs.cloudflare.com; connect-src 'self' https://cdn.jsdelivr.net; media-src 'self' blob:; worker-src 'self' blob:; camera 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'unsafe-eval' https://cdn.jsdelivr.net; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' data: blob:; font-src 'self' https://cdnjs.cloudflare.com; connect-src 'self' https://cdn.jsdelivr.net; media-src 'self' blob:; worker-src 'self' blob:; frame-src 'none'; base-uri 'self'; form-action 'self';">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <title>Traductor LSN — Lengua de Señas Nicaragüense</title>
   <link rel="stylesheet" href="style.css">
@@ -12,174 +12,300 @@
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js" integrity="sha384-vE8hbVJ4lezako5rlvE7bY0BVzWlFhZncPlckrqNwcUQpVtgbENTgZ8TBbnPjZre" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic@0.5.1675471629/holistic.js" integrity="sha384-uPgv3xhUPhBy7PuniMrm0xGTB8Wme5XMJWg98sFaqvxMAbPeOSa2De2R46nuG8Sw" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils@0.3.1675466124/drawing_utils.js" integrity="sha384-W/7NVG2tfN12ld8faSFVOZ/W4UHFHze98GqEUPTl8EjY9QDwCKQIzoCHp8/IlIIr" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.3.1675466862/camera_utils.js" integrity="sha384-q1KhAZhJcJXr3zfC3Tz07pBqQSabwFIZhXlmlUAB8s0zk4ETWERkIKGBCFQ5Jc3e" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-  <header>
-    <h1>Traductor <span class="accent">LSN</span></h1>
-    <p class="subtitle">Lengua de Señas Nicaragüense → texto y voz, en tu navegador</p>
-    <div class="howto">
-      <span><i class="fa-solid fa-video"></i> Permite la cámara</span>
-      <span><i class="fa-solid fa-hands"></i> Haz una seña</span>
-      <span><i class="fa-solid fa-arrow-down"></i> Baja las manos</span>
-      <span><i class="fa-solid fa-comment"></i> Lee y escucha la traducción</span>
-    </div>
-    <div class="header-actions">
-      <button id="btn-contribute" class="btn-contribute"><i class="fa-solid fa-user-plus"></i> Contribuir muestras</button>
-      <button id="btn-delete-data" class="btn-secondary" title="Borrar mis muestras almacenadas"><i class="fa-solid fa-trash-can"></i> Borrar mis datos</button>
-    </div>
-    <details id="privacy-notice" class="privacy-notice">
-      <summary><i class="fa-solid fa-shield-halved"></i> Aviso de privacidad</summary>
-      <p>
-        Esta página procesa la cámara <strong>en tu dispositivo</strong>: los fotogramas nunca salen
-        al servidor. Lo único que se sube al servidor (sólo si das feedback o contribuyes muestras) son
-        <strong>keypoints numéricos de tu mano, pose y hombros</strong>. Los puntos del rostro se
-        eliminan antes de enviar. Tus muestras se almacenan un máximo de 30 días y puedes borrarlas
-        en cualquier momento con el botón "Borrar mis datos".
-      </p>
-      <p>
-        Más información en <a href="SECURITY.md" target="_blank" rel="noopener">SECURITY.md</a>.
-      </p>
-    </details>
+  <header class="topbar">
+    <a class="brand" href="#traducir">
+      <span class="brand-mark"><i class="fa-solid fa-hands-asl-interpreting"></i></span>
+      <span>Traductor <strong>LSN</strong></span>
+    </a>
+    <nav class="tabs" role="tablist">
+      <a class="tab" href="#traducir" data-view="traducir"><i class="fa-solid fa-language"></i><span>Traducir</span></a>
+      <a class="tab" href="#aprender" data-view="aprender"><i class="fa-solid fa-graduation-cap"></i><span>Aprender</span></a>
+      <a class="tab" href="#texto" data-view="texto"><i class="fa-solid fa-keyboard"></i><span>Texto → Señas</span></a>
+      <a class="tab" href="#proyecto" data-view="proyecto"><i class="fa-solid fa-flask"></i><span>El proyecto</span></a>
+    </nav>
+    <button id="btn-theme" class="icon-btn" title="Cambiar tema claro/oscuro" aria-label="Cambiar tema"><i class="fa-solid fa-circle-half-stroke"></i></button>
   </header>
 
   <main>
-    <section class="video-panel">
-      <div class="video-wrap">
-        <video id="input-video" playsinline></video>
-        <canvas id="output-canvas" width="640" height="480"></canvas>
-        <div id="status-pill" class="status-pill loading">Cargando modelo…</div>
-        <div id="fps-badge" class="fps-badge" hidden>— fps</div>
-      </div>
-      <div id="flash-word" class="flash-word" hidden></div>
-
-      <div class="card signs-card">
-        <h2>Señas disponibles <span id="sign-count"></span></h2>
-        <div id="signs-list" class="signs-list"></div>
+    <!-- ================= TRADUCIR ================= -->
+    <section class="view" id="view-traducir" data-view="traducir">
+      <div class="view-head">
+        <div>
+          <h1>Lengua de Señas Nicaragüense → texto y voz</h1>
+          <p class="lead">Haz una seña frente a la cámara y baja las manos: el modelo la reconoce en tu navegador.</p>
+        </div>
       </div>
 
-      <div class="card signs-card">
-        <h2>Abecedario <span id="abc-count"></span></h2>
-        <div id="abc-list" class="signs-list"></div>
+      <div class="layout-2">
+        <div>
+          <div class="source-bar">
+            <div class="segmented" role="radiogroup" aria-label="Fuente de video">
+              <button class="seg active" data-source="camera"><i class="fa-solid fa-video"></i> Cámara</button>
+              <button class="seg" data-source="file"><i class="fa-solid fa-film"></i> Video de ejemplo</button>
+            </div>
+            <label class="file-pick" id="file-pick" hidden>
+              <input type="file" id="file-input" accept="video/*">
+              <i class="fa-solid fa-folder-open"></i> Elegir video…
+            </label>
+            <select id="demo-select" class="select" hidden></select>
+          </div>
+
+          <!-- el escenario se mueve entre Traducir y Aprender: hay una sola cámara -->
+          <div id="stage-slot-traducir" class="stage-slot">
+            <div id="stage" class="stage">
+              <video id="input-video" playsinline muted></video>
+              <canvas id="output-canvas" width="640" height="480"></canvas>
+              <div id="status-pill" class="status-pill loading">Cargando modelo…</div>
+              <div id="fps-badge" class="fps-badge" hidden>— fps</div>
+              <div id="flash-word" class="flash-word" hidden></div>
+              <div id="stage-empty" class="stage-empty" hidden>
+                <i class="fa-solid fa-video-slash"></i>
+                <p id="stage-empty-text">No hay cámara disponible.</p>
+                <button class="btn btn-primary" id="stage-use-file"><i class="fa-solid fa-film"></i> Usar un video de ejemplo</button>
+              </div>
+            </div>
+          </div>
+
+          <ol class="steps">
+            <li><i class="fa-solid fa-video"></i> Permite la cámara</li>
+            <li><i class="fa-solid fa-hands"></i> Haz una seña</li>
+            <li><i class="fa-solid fa-arrow-down"></i> Baja las manos</li>
+            <li><i class="fa-solid fa-comment"></i> Lee y escucha</li>
+          </ol>
+        </div>
+
+        <aside class="stack">
+          <div class="card result-card">
+            <h2>Resultado</h2>
+            <div id="result-word" class="result-word muted">—</div>
+            <div id="confidence-bars" class="confidence-bars">
+              <p class="hint">Al bajar las manos verás qué tan segura fue la predicción.</p>
+            </div>
+            <div id="feedback-row" class="feedback-row" hidden></div>
+            <p class="feedback-meta" id="feedback-meta" hidden>
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span id="feedback-count">0</span> muestras pendientes de envío
+              <button id="feedback-download" class="icon-btn sm" title="Descargar muestras como respaldo"><i class="fa-solid fa-download"></i></button>
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <h2>Frase</h2>
+              <div class="btn-row">
+                <button id="btn-undo" class="icon-btn" title="Borrar última palabra"><i class="fa-solid fa-rotate-left"></i></button>
+                <button id="btn-copy" class="icon-btn" title="Copiar frase"><i class="fa-solid fa-copy"></i></button>
+                <button id="btn-clear" class="icon-btn" title="Limpiar todo"><i class="fa-solid fa-trash-can"></i></button>
+                <button id="btn-speak-sentence" class="icon-btn" title="Leer frase completa"><i class="fa-solid fa-volume-high"></i></button>
+              </div>
+            </div>
+            <div id="sentence" class="sentence">
+              <p class="hint">Las palabras detectadas aparecerán aquí.</p>
+            </div>
+          </div>
+
+          <details class="card settings">
+            <summary><h2>Ajustes</h2><i class="fa-solid fa-chevron-down"></i></summary>
+            <label class="setting">
+              <input type="checkbox" id="chk-voice" checked>
+              Leer cada palabra en voz alta
+            </label>
+            <label class="setting">
+              <input type="checkbox" id="chk-face">
+              Mostrar malla del rostro
+            </label>
+            <label class="setting">
+              Seguridad mínima para aceptar una seña: <strong id="threshold-value">70%</strong>
+              <input type="range" id="threshold" min="50" max="95" step="5" value="70">
+            </label>
+            <label class="setting">
+              Filtro de gestos extraños: <strong id="openset-value">1.1×</strong>
+              <input type="range" id="openset" min="10" max="40" step="1" value="11">
+              <span class="setting-hint">Bajo = estricto (rechaza gestos raros) · Alto = permisivo</span>
+            </label>
+            <div class="setting-actions">
+              <button id="btn-contribute" class="btn btn-ghost"><i class="fa-solid fa-user-plus"></i> Contribuir muestras</button>
+              <button id="btn-delete-data" class="btn btn-ghost" title="Borrar mis muestras almacenadas"><i class="fa-solid fa-trash-can"></i> Borrar mis datos</button>
+            </div>
+          </details>
+
+          <div id="capture-panel" class="card capture-card" hidden>
+            <div class="card-head">
+              <h2>Contribuir muestras</h2>
+              <button id="capture-close" class="icon-btn" title="Salir del modo captura"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div id="capture-intro">
+              <p class="capture-text">Vas a hacer cada seña frente a la cámara. Al bajar las manos se guarda
+              y pasas a la siguiente. <strong>No se guarda tu video</strong>: solo los puntos de las manos y la
+              pose (la cara se elimina antes de enviar).</p>
+              <input type="text" id="contributor-name" class="input" placeholder="Tu nombre o alias" maxlength="30" autocomplete="off" pattern="[A-Za-z0-9_\-]+" title="Sólo letras, números, guion y guion bajo">
+              <button id="capture-start" class="btn btn-primary" disabled>Empezar</button>
+            </div>
+            <div id="capture-flow" hidden>
+              <p class="capture-progress" id="capture-progress"></p>
+              <h3 id="capture-word" class="capture-word"></h3>
+              <p id="capture-state" class="hint">Haz la seña y baja las manos…</p>
+              <div class="btn-row capture-actions">
+                <button id="capture-redo" class="btn" disabled><i class="fa-solid fa-rotate-right"></i> Repetir</button>
+                <button id="capture-skip" class="btn">Omitir</button>
+                <button id="capture-next" class="btn btn-primary" disabled>Siguiente <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <div id="capture-done" hidden>
+              <p id="capture-summary" class="capture-text"></p>
+              <button id="capture-download" class="btn btn-primary" hidden><i class="fa-solid fa-download"></i> Descargar mis muestras</button>
+            </div>
+          </div>
+        </aside>
       </div>
 
+      <div class="card">
+        <div class="card-head">
+          <h2>Señas que reconoce el modelo <span id="sign-count" class="count"></span></h2>
+          <a class="link" href="#aprender">Aprenderlas <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div id="signs-list" class="chips"></div>
+      </div>
     </section>
 
-    <section class="side-panel" id="side-panel">
-      <div id="capture-panel" class="card capture-card" hidden>
-        <div class="card-head">
-          <h2>Contribuir muestras</h2>
-          <button id="capture-close" class="btn" title="Salir del modo captura"><i class="fa-solid fa-xmark"></i></button>
+    <!-- ================= APRENDER ================= -->
+    <section class="view" id="view-aprender" data-view="aprender" hidden>
+      <div class="view-head">
+        <div>
+          <h1>Aprende señas</h1>
+          <p class="lead">Mira cómo se hace la seña, imítala frente a la cámara y el modelo te dice si lo lograste.</p>
         </div>
+        <div class="progress-badge" id="learn-progress"></div>
+      </div>
 
-        <div id="capture-intro">
-          <p class="capture-text">Vas a hacer cada seña frente a la cámara, igual que en el
-          video de ejemplo. Al bajar las manos se guarda y pasas a la siguiente.
-          <strong>No se guarda tu video</strong> — solo los puntos de las manos y la pose (la cara
-          se elimina antes de enviar), y al terminar se envían solas al servidor de entrenamiento.</p>
-          <input type="text" id="contributor-name" class="capture-input" placeholder="Tu nombre o alias" maxlength="30" autocomplete="off" pattern="[A-Za-z0-9_\-]+" title="Sólo letras, números, guion y guion bajo">
-          <button id="capture-start" class="btn-primary" disabled>Empezar</button>
-        </div>
-
-        <div id="capture-flow" hidden>
-          <p class="capture-progress" id="capture-progress"></p>
-          <video id="capture-example" class="capture-example" muted loop playsinline></video>
-          <h3 id="capture-word" class="capture-word"></h3>
-          <p id="capture-state" class="hint">Haz la seña y baja las manos…</p>
-          <div class="btn-row capture-actions">
-            <button id="capture-redo" class="btn-secondary" disabled><i class="fa-solid fa-rotate-right"></i> Repetir</button>
-            <button id="capture-skip" class="btn-secondary">Omitir</button>
-            <button id="capture-next" class="btn-primary" disabled>Siguiente <i class="fa-solid fa-arrow-right"></i></button>
+      <div class="layout-2" id="lesson" hidden>
+        <div class="card lesson-ref">
+          <div class="card-head">
+            <h2>1 · Mira la seña</h2>
+            <div class="segmented sm" role="radiogroup" aria-label="Referencia">
+              <button class="seg active" data-ref="video"><i class="fa-solid fa-film"></i> Video</button>
+              <button class="seg" data-ref="skeleton"><i class="fa-solid fa-person"></i> Esqueleto</button>
+            </div>
+          </div>
+          <h3 id="lesson-word" class="lesson-word"></h3>
+          <div class="ref-stage">
+            <div id="ref-video" class="ref-video"></div>
+            <canvas id="ref-canvas" width="640" height="480" hidden></canvas>
+            <p id="ref-missing" class="ref-missing hint" hidden>Aún no hay referencia para esta seña.</p>
+          </div>
+          <p id="lesson-credit" class="credit"></p>
+          <div class="btn-row">
+            <button id="ref-replay" class="btn"><i class="fa-solid fa-rotate-right"></i> Ver otra vez</button>
+            <button id="lesson-prev" class="btn"><i class="fa-solid fa-arrow-left"></i></button>
+            <button id="lesson-next" class="btn">Siguiente <i class="fa-solid fa-arrow-right"></i></button>
           </div>
         </div>
 
-        <div id="capture-done" hidden>
-          <p id="capture-summary" class="capture-text"></p>
-          <button id="capture-download" class="btn-primary" hidden><i class="fa-solid fa-download"></i> Descargar mis muestras</button>
-          <p class="hint">Si el envío falla, este botón descarga el archivo para enviarlo por WhatsApp.</p>
+        <div class="card lesson-try">
+          <h2>2 · Ahora tú</h2>
+          <div id="stage-slot-aprender" class="stage-slot"></div>
+          <div id="lesson-verdict" class="verdict">
+            <p class="hint">Haz la seña y baja las manos.</p>
+          </div>
         </div>
       </div>
 
-      <div class="card signs-card">
-        <h2>Texto → Señas</h2>
-        <p class="hint" style="margin-bottom: 0.6rem;">Escribe y una figura hará las señas.
-        Las palabras sin seña se deletrean con el abecedario.</p>
+      <div class="card">
+        <div class="card-head">
+          <h2>Lecciones <span id="lesson-count" class="count"></span></h2>
+          <input type="search" id="lesson-search" class="input sm" placeholder="Buscar seña…">
+        </div>
+        <div id="lesson-grid" class="lesson-grid"></div>
+        <p class="hint legend"><span class="dot dot-practice"></span> el modelo la reconoce: puedes practicarla ·
+          <span class="dot dot-watch"></span> solo para ver (aún no entrenada)</p>
+      </div>
+    </section>
+
+    <!-- ================= TEXTO → SEÑAS ================= -->
+    <section class="view" id="view-texto" data-view="texto" hidden>
+      <div class="view-head">
+        <div>
+          <h1>Texto → Señas</h1>
+          <p class="lead">Escribe una frase y una figura la seña. Las palabras sin seña se deletrean con el abecedario.</p>
+        </div>
+      </div>
+      <div class="card t2s-card">
         <div class="t2s-row">
-          <input type="text" id="t2s-input" class="capture-input" placeholder="ej: hola como estas" style="margin-bottom: 0;">
-          <button id="t2s-play" class="btn-primary"><i class="fa-solid fa-play"></i> Señar</button>
+          <input type="text" id="t2s-input" class="input" placeholder="ej: hola buenos días">
+          <button id="t2s-play" class="btn btn-primary"><i class="fa-solid fa-play"></i> Señar</button>
         </div>
         <div id="t2s-tokens" class="t2s-tokens"></div>
-        <div class="t2s-views">
-          <label><input type="radio" name="t2s-view" value="2d" checked> Figura</label>
-          <label><input type="radio" name="t2s-view" value="video"> Video real</label>
-        </div>
         <div class="t2s-stage" id="t2s-stage" hidden>
           <canvas id="t2s-canvas" width="640" height="480"></canvas>
-          <video id="t2s-video" muted playsinline hidden></video>
           <div id="t2s-caption" class="t2s-caption"></div>
         </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h2>Confianza</h2>
-        <div id="confidence-bars" class="confidence-bars">
-          <p class="hint">Haz una seña frente a la cámara: al bajar las manos verás aquí qué tan segura fue la predicción.</p>
-        </div>
-        <div id="feedback-row" class="feedback-row" hidden></div>
-        <p class="feedback-meta" id="feedback-meta" hidden>
-          <i class="fa-solid fa-graduation-cap"></i>
-          <span id="feedback-count">0</span> muestras pendientes de envío
-          <button id="feedback-download" class="btn" title="Descargar muestras como respaldo"><i class="fa-solid fa-download"></i></button>
-        </p>
-      </div>
-
-      <div class="card">
-        <div class="card-head">
-          <h2>Frase</h2>
-          <div class="btn-row">
-            <button id="btn-undo" class="btn" title="Borrar última palabra"><i class="fa-solid fa-rotate-left"></i></button>
-            <button id="btn-copy" class="btn" title="Copiar frase"><i class="fa-solid fa-copy"></i></button>
-            <button id="btn-clear" class="btn" title="Limpiar todo"><i class="fa-solid fa-trash-can"></i></button>
-            <button id="btn-speak-sentence" class="btn" title="Leer frase completa"><i class="fa-solid fa-volume-high"></i></button>
-          </div>
-        </div>
-        <div id="sentence" class="sentence">
-          <p class="hint">Las palabras detectadas aparecerán aquí.</p>
+    <!-- ================= EL PROYECTO ================= -->
+    <section class="view" id="view-proyecto" data-view="proyecto" hidden>
+      <div class="view-head">
+        <div>
+          <h1>Cómo funciona</h1>
+          <p class="lead">Reconocimiento de Lengua de Señas Nicaragüense con keypoints corporales y una red LSTM, ejecutado 100% en el navegador.</p>
         </div>
       </div>
 
       <div class="card">
-        <h2>Ajustes</h2>
-        <label class="setting">
-          <input type="checkbox" id="chk-voice" checked>
-          Leer cada palabra en voz alta
-        </label>
-        <label class="setting">
-          Seguridad mínima para aceptar una seña: <strong id="threshold-value">70%</strong>
-          <input type="range" id="threshold" min="50" max="95" step="5" value="70">
-        </label>
-        <label class="setting">
-          <input type="checkbox" id="chk-face" checked>
-          Mostrar malla del rostro
-        </label>
-        <label class="setting">
-          Filtro de gestos extraños: <strong id="openset-value">1.1×</strong>
-          <input type="range" id="openset" min="10" max="40" step="1" value="11">
-          <span class="setting-hint">Bajo = estricto (rechaza gestos raros) · Alto = permisivo (acepta señas hechas distinto)</span>
-        </label>
+        <h2>Arquitectura</h2>
+        <ol class="pipeline">
+          <li><i class="fa-solid fa-video"></i><strong>Cámara</strong><span>640×480, ~25 fps</span></li>
+          <li><i class="fa-solid fa-person"></i><strong>MediaPipe Holistic</strong><span>33 puntos de pose + 2×21 de manos</span></li>
+          <li><i class="fa-solid fa-ruler-combined"></i><strong>Normalización</strong><span>relativa a los hombros · manos locales · velocidades → 702 features</span></li>
+          <li><i class="fa-solid fa-diagram-project"></i><strong>LSTM 64 → 128</strong><span><span id="arch-frames">25</span> frames → Dense 64 → softmax</span></li>
+          <li><i class="fa-solid fa-filter"></i><strong>Filtro open-set</strong><span>rechaza gestos fuera del radio de su clase</span></li>
+          <li><i class="fa-solid fa-comment"></i><strong>Texto y voz</strong><span>Web Speech API</span></li>
+        </ol>
+      </div>
+
+      <div class="grid-3" id="metric-cards">
+        <div class="card metric"><span class="metric-value" id="m-classes">—</span><span class="metric-label">señas en el modelo</span></div>
+        <div class="card metric"><span class="metric-value" id="m-signers">—</span><span class="metric-label">señantes en el entrenamiento</span></div>
+        <div class="card metric"><span class="metric-value" id="m-loso">—</span><span class="metric-label" id="m-loso-label">precisión</span></div>
+      </div>
+
+      <div class="layout-2">
+        <div class="card">
+          <h2>Datos</h2>
+          <p id="data-text" class="prose">Cargando…</p>
+        </div>
+        <div class="card">
+          <h2>Evaluación</h2>
+          <p class="prose">Se evalúa siempre con grabaciones que el modelo <strong>no vio</strong> al entrenar,
+          nunca con variaciones aumentadas de las mismas tomas (eso infla la exactitud).</p>
+          <p class="prose" id="eval-method"></p>
+          <div id="loso-table"></div>
+        </div>
+      </div>
+
+      <div class="layout-2">
+        <div class="card">
+          <h2>Privacidad</h2>
+          <p class="prose">La cámara se procesa <strong>en tu dispositivo</strong>; los fotogramas nunca salen al servidor.
+          Si contribuyes muestras, solo se envían keypoints numéricos de manos y pose (el rostro se descarta) y
+          se borran a los 30 días.</p>
+        </div>
+        <div class="card">
+          <h2>Créditos</h2>
+          <p class="prose">Videos de referencia: <em>Curso Básico de Lenguaje de Señas</em> de
+          <strong>CD-SINAPRED</strong> con la Asociación Nacional de Sordos de Nicaragua (ANSNIC).
+          Los clips se recortaron para uso académico.</p>
+          <p class="prose" id="model-check-wrap"><i class="fa-solid fa-shield-halved"></i> <span id="model-check" class="model-check">verificando modelo…</span></p>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <span id="model-check" class="model-check">verificando modelo…</span>
-    · todo el procesamiento ocurre en tu dispositivo
+    Todo el procesamiento ocurre en tu dispositivo · Lengua de Señas Nicaragüense
   </footer>
-
-  <div id="sign-preview" class="sign-preview" hidden>
-    <video id="preview-video" muted loop playsinline></video>
-    <span id="preview-label"></span>
-  </div>
 
   <script src="app.js"></script>
 </body>

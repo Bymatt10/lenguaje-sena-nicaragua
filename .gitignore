@@ -11,6 +11,12 @@ dataset_contrib/
 dataset_contrib/**
 dataset_videos/
 dataset_videos/**
+# videos de terceros (CD-SINAPRED): solo uso local, nunca subir
+dataset_raw/
+web/demo/
+web/clips/
+/*.mp4
+models/backup_*/
 /videos
 web/videos/*.mp4
 web/videos/muestras_lsn_*.json

@@ -1,0 +1,33 @@
+# Vocabulario del demo de tesis: saludos + gestión de riesgo (tema del curso CD-SINAPRED)
+# saludos y cortesía
+hola
+buenos_dias
+buenas_tardes
+buenas_noches
+bienvenidos
+gracias
+por_favor
+perdon
+lo_siento
+mal_malo_mala
+me_voy_nos_vamos
+# emergencias
+terremoto
+sismo
+temblor
+huracan
+inundacion
+incendio
+tsunami
+erupcion_volcanica
+deslizamiento
+evacuacion
+alarma
+albergue
+cuidado_cuidar
+calma
+esperar
+llamar
+necesitar
+farmacia
+pastilla

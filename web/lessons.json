@@ -1,0 +1,4402 @@
+{
+ "source": "Curso Básico de Lenguaje de Señas — CD-SINAPRED / ANSNIC",
+ "words": {
+  "10s": {
+   "text": "10S",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/10s.mp4"
+  },
+  "4_5": {
+   "text": "4-5",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/4_5.mp4"
+  },
+  "a": {
+   "text": "A",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/a.mp4"
+  },
+  "a_i": {
+   "text": "A-Г-I",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/a_i.mp4"
+  },
+  "a_s_6": {
+   "text": "A-S-6",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/a_s_6.mp4"
+  },
+  "a_traves": {
+   "text": "A TRAVÉS",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/a_traves.mp4"
+  },
+  "abajo": {
+   "text": "ABAJO",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/abajo.mp4"
+  },
+  "abanico": {
+   "text": "ABANICO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/abanico.mp4"
+  },
+  "abeja": {
+   "text": "ABEJA",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/abeja.mp4"
+  },
+  "abierto": {
+   "text": "ABIERTO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/abierto.mp4"
+  },
+  "abogado_abogada": {
+   "text": "ABOGADO/ABOGADA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/abogado_abogada.mp4"
+  },
+  "aborto_abortar": {
+   "text": "ABORTO/ABORTAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/aborto_abortar.mp4"
+  },
+  "abuelo_abuela": {
+   "text": "ABUELO/ABUELA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/abuelo_abuela.mp4"
+  },
+  "aburrido_aburrida": {
+   "text": "ABURRIDO/ABURRIDA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/aburrido_aburrida.mp4"
+  },
+  "aca_aqui": {
+   "text": "ACÁ/AQUÍ",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/aca_aqui.mp4"
+  },
+  "aceptar": {
+   "text": "ACEPTAR",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/aceptar.mp4"
+  },
+  "acompanado_acompanada": {
+   "text": "ACOMPAÑADO/ACOMPAÑADA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/acompanado_acompanada.mp4"
+  },
+  "acuerdo": {
+   "text": "ACUERDO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/acuerdo.mp4"
+  },
+  "adentro": {
+   "text": "ADENTRO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/adentro.mp4"
+  },
+  "aduana": {
+   "text": "ADUANA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/aduana.mp4"
+  },
+  "adulto": {
+   "text": "ADULTO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/adulto.mp4"
+  },
+  "aeropuerto": {
+   "text": "AEROPUERTO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/aeropuerto.mp4"
+  },
+  "afuera": {
+   "text": "AFUERA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/afuera.mp4"
+  },
+  "aguja": {
+   "text": "AGUJA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/aguja.mp4"
+  },
+  "ahora": {
+   "text": "AHORA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/ahora.mp4"
+  },
+  "ahorita": {
+   "text": "AHORITA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/ahorita.mp4"
+  },
+  "ala": {
+   "text": "ALA",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/ala.mp4"
+  },
+  "alacran": {
+   "text": "ALACRÁN",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/alacran.mp4"
+  },
+  "alarma": {
+   "text": "ALARMA",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/alarma.mp4"
+  },
+  "albanil": {
+   "text": "ALBAÑIL",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/albanil.mp4"
+  },
+  "albergue": {
+   "text": "ALBERGUE",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/albergue.mp4"
+  },
+  "alcaldia": {
+   "text": "ALCALDIA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/alcaldia.mp4"
+  },
+  "alcohol": {
+   "text": "ALCOHOL",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/alcohol.mp4"
+  },
+  "alegre_contento_contenta": {
+   "text": "ALEGRE/CONTENTO/CONTENTA",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/alegre_contento_contenta.mp4"
+  },
+  "alfabeto_manual": {
+   "text": "ALFABETO MANUAL",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS"
+  },
+  "alicate": {
+   "text": "ALICATE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/alicate.mp4"
+  },
+  "almohada": {
+   "text": "ALMOHADA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/almohada.mp4"
+  },
+  "amanecer": {
+   "text": "AMANECER",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/amanecer.mp4"
+  },
+  "amarillo": {
+   "text": "AMARILLO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/amarillo.mp4"
+  },
+  "ambos_ambas": {
+   "text": "AMBOS/AMBAS",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/ambos_ambas.mp4"
+  },
+  "ambulancia": {
+   "text": "AMBULANCIA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/ambulancia.mp4"
+  },
+  "amiga_amigo": {
+   "text": "AMIGA/AMIGO",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/amiga_amigo.mp4"
+  },
+  "amor_amar": {
+   "text": "AMOR / AMAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/amor_amar.mp4"
+  },
+  "angel": {
+   "text": "ÁNGEL",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/angel.mp4"
+  },
+  "animales": {
+   "text": "ANIMALES",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/animales.mp4"
+  },
+  "anteayer": {
+   "text": "ANTEAYER",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/anteayer.mp4"
+  },
+  "aparte": {
+   "text": "APARTE",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/aparte.mp4"
+  },
+  "arana": {
+   "text": "ARAÑA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/arana.mp4"
+  },
+  "arbol": {
+   "text": "ÁRBOL",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/arbol.mp4"
+  },
+  "arbol_navideno": {
+   "text": "ÁRBOL NAVIDEÑO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/arbol_navideno.mp4"
+  },
+  "ardilla": {
+   "text": "ARDILLA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/ardilla.mp4"
+  },
+  "arriba": {
+   "text": "ARRIBA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/arriba.mp4"
+  },
+  "asado": {
+   "text": "ASADO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/asado.mp4"
+  },
+  "asesinar": {
+   "text": "ASESINAR",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/asesinar.mp4"
+  },
+  "asociacion": {
+   "text": "ASOCIACIÓN",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/asociacion.mp4"
+  },
+  "atencion_atender": {
+   "text": "ATENCIÓN/ATENDER",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/atencion_atender.mp4"
+  },
+  "atras": {
+   "text": "ÁTRAS",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/atras.mp4"
+  },
+  "aula": {
+   "text": "AULA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/aula.mp4"
+  },
+  "autoproteccion": {
+   "text": "AUTOPROTECCIÓN",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/autoproteccion.mp4"
+  },
+  "avion": {
+   "text": "AVIÓN",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/avion.mp4"
+  },
+  "aviso": {
+   "text": "AVISO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/aviso.mp4"
+  },
+  "ayer": {
+   "text": "AYER",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/ayer.mp4"
+  },
+  "azucar": {
+   "text": "AZÚCAR",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/azucar.mp4"
+  },
+  "b": {
+   "text": "B",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/b.mp4"
+  },
+  "b_doblada": {
+   "text": "B - DOBLADA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/b_doblada.mp4"
+  },
+  "b_palma": {
+   "text": "B-PALMA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/b_palma.mp4"
+  },
+  "bailar": {
+   "text": "BAILAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/bailar.mp4"
+  },
+  "balanza": {
+   "text": "BALANZA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/balanza.mp4"
+  },
+  "balde": {
+   "text": "BALDE",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/balde.mp4"
+  },
+  "baloncesto": {
+   "text": "BALONCESTO",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/baloncesto.mp4"
+  },
+  "banano": {
+   "text": "BANANO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/banano.mp4"
+  },
+  "banar": {
+   "text": "BANAR",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/banar.mp4"
+  },
+  "bandeja": {
+   "text": "BANDEJA",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/bandeja.mp4"
+  },
+  "bandera": {
+   "text": "BANDERA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/bandera.mp4"
+  },
+  "barba": {
+   "text": "BARBA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/barba.mp4"
+  },
+  "barco": {
+   "text": "BARCO",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/barco.mp4"
+  },
+  "bascula": {
+   "text": "BASCULA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/bascula.mp4"
+  },
+  "baston": {
+   "text": "BASTÓN",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/baston.mp4"
+  },
+  "basura": {
+   "text": "BASURA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/basura.mp4"
+  },
+  "bebe": {
+   "text": "BEBE",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/bebe.mp4"
+  },
+  "beisbol": {
+   "text": "BÉISBOL",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/beisbol.mp4"
+  },
+  "besar": {
+   "text": "BESAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/besar.mp4"
+  },
+  "beso": {
+   "text": "BESO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/beso.mp4"
+  },
+  "bicicleta": {
+   "text": "BICICLETA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/bicicleta.mp4"
+  },
+  "bien": {
+   "text": "BIEN",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/bien.mp4"
+  },
+  "bienvenidos": {
+   "text": "BIENVENIDOS",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/bienvenidos.mp4"
+  },
+  "billetera": {
+   "text": "BILLETERA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/billetera.mp4"
+  },
+  "binoculares": {
+   "text": "BINOCULARES",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/binoculares.mp4"
+  },
+  "blanco_blanca": {
+   "text": "BLANCO/BLANCA",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/blanco_blanca.mp4"
+  },
+  "blusa": {
+   "text": "BLUSA",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/blusa.mp4"
+  },
+  "bomba": {
+   "text": "BOMBA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/bomba.mp4"
+  },
+  "bonito_bonita": {
+   "text": "BONITO/BONITA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/bonito_bonita.mp4"
+  },
+  "borrador": {
+   "text": "BORRADOR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/borrador.mp4"
+  },
+  "bota": {
+   "text": "BOTA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/bota.mp4"
+  },
+  "bote": {
+   "text": "BOTE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/bote.mp4"
+  },
+  "botella": {
+   "text": "BOTELLA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/botella.mp4"
+  },
+  "boton": {
+   "text": "BOTÓN",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/boton.mp4"
+  },
+  "brasier": {
+   "text": "BRASIER",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/brasier.mp4"
+  },
+  "brocha_pintura_pintor": {
+   "text": "BROCHA/PINTURA/PINTOR",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/brocha_pintura_pintor.mp4"
+  },
+  "buenas_noches": {
+   "text": "BUENAS NOCHES",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/buenas_noches.mp4"
+  },
+  "buenas_tardes": {
+   "text": "BUENAS TARDES",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/buenas_tardes.mp4"
+  },
+  "buenos_dias": {
+   "text": "BUENOS DÍAS",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/buenos_dias.mp4"
+  },
+  "burla": {
+   "text": "BURLA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/burla.mp4"
+  },
+  "bus": {
+   "text": "BUS",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/bus.mp4"
+  },
+  "c": {
+   "text": "C",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/c.mp4"
+  },
+  "caballo": {
+   "text": "CABALLO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/caballo.mp4"
+  },
+  "cada": {
+   "text": "CADA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/cada.mp4"
+  },
+  "caer": {
+   "text": "CAER",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/caer.mp4"
+  },
+  "cafe": {
+   "text": "CAFÉ",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/cafe.mp4"
+  },
+  "caja_paquete": {
+   "text": "CAJA/PAQUETE",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/caja_paquete.mp4"
+  },
+  "calcetines": {
+   "text": "CALCETINES",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/calcetines.mp4"
+  },
+  "calculadora": {
+   "text": "CALCULADORA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/calculadora.mp4"
+  },
+  "calendario": {
+   "text": "CALENDARIO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/calendario.mp4"
+  },
+  "callar_callate": {
+   "text": "CALLAR/CÁLLATE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/callar_callate.mp4"
+  },
+  "calle": {
+   "text": "CALLE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/calle.mp4"
+  },
+  "calma": {
+   "text": "CALMA",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/calma.mp4"
+  },
+  "calor": {
+   "text": "CALOR",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/calor.mp4"
+  },
+  "calzon": {
+   "text": "CALZÓN",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/calzon.mp4"
+  },
+  "calzoncillo": {
+   "text": "CALZONCILLO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/calzoncillo.mp4"
+  },
+  "cama": {
+   "text": "CAMA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/cama.mp4"
+  },
+  "camara": {
+   "text": "CAMARA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/camara.mp4"
+  },
+  "cambio_cambiar": {
+   "text": "CAMBIO/CAMBIAR",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/cambio_cambiar.mp4"
+  },
+  "caminar": {
+   "text": "CAMINAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/caminar.mp4"
+  },
+  "camino": {
+   "text": "CAMINO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/camino.mp4"
+  },
+  "camion": {
+   "text": "CAMIÓN",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/camion.mp4"
+  },
+  "camioneta": {
+   "text": "CAMIONETA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/camioneta.mp4"
+  },
+  "camisa": {
+   "text": "CAMISA",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/camisa.mp4"
+  },
+  "campana": {
+   "text": "CAMPANA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/campana.mp4"
+  },
+  "campeon": {
+   "text": "CAMPEÓN",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/campeon.mp4"
+  },
+  "cancer": {
+   "text": "CÁNCER",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/cancer.mp4"
+  },
+  "candado": {
+   "text": "CANDADO",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/candado.mp4"
+  },
+  "canguro": {
+   "text": "CANGURO",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/canguro.mp4"
+  },
+  "cantar": {
+   "text": "CANTAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/cantar.mp4"
+  },
+  "capullo": {
+   "text": "CAPULLO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/capullo.mp4"
+  },
+  "cara_caro": {
+   "text": "CARA/CARO",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/cara_caro.mp4"
+  },
+  "carcel": {
+   "text": "CÁRCEL",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/carcel.mp4"
+  },
+  "carne": {
+   "text": "CARNE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/carne.mp4"
+  },
+  "carnet": {
+   "text": "CARNET",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/carnet.mp4"
+  },
+  "carpa": {
+   "text": "CARPA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/carpa.mp4"
+  },
+  "carretera": {
+   "text": "CARRETERA",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/carretera.mp4"
+  },
+  "carro": {
+   "text": "CARRO",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/carro.mp4"
+  },
+  "casa": {
+   "text": "CASA",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/casa.mp4"
+  },
+  "casa_de_campana": {
+   "text": "CASA DE CAMPAÑA",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/casa_de_campana.mp4"
+  },
+  "catorce": {
+   "text": "CATORCE",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/catorce.mp4"
+  },
+  "celeste": {
+   "text": "CELESTE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/celeste.mp4"
+  },
+  "censo": {
+   "text": "CENSO",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/censo.mp4"
+  },
+  "centavo": {
+   "text": "CENTAVO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/centavo.mp4"
+  },
+  "centroamerica": {
+   "text": "CENTROAMÉRICA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/centroamerica.mp4"
+  },
+  "cepillo_de_carpinteria": {
+   "text": "CEPILLO DE CARPINTERIA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/cepillo_de_carpinteria.mp4"
+  },
+  "cepillo_de_dientes": {
+   "text": "CEPILLO DE DIENTES",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/cepillo_de_dientes.mp4"
+  },
+  "cerca": {
+   "text": "CERCA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/cerca.mp4"
+  },
+  "cerdo": {
+   "text": "CERDO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/cerdo.mp4"
+  },
+  "cero": {
+   "text": "CERO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/cero.mp4"
+  },
+  "cerrado_cerrada_cerrar": {
+   "text": "CERRADO/CERRADA/CERRAR",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/cerrado_cerrada_cerrar.mp4"
+  },
+  "ch_8": {
+   "text": "CH - 8",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/ch_8.mp4"
+  },
+  "chavalo_chavala": {
+   "text": "CHAVALO/CHAVALA",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/chavalo_chavala.mp4"
+  },
+  "cheque": {
+   "text": "CHEQUE",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/cheque.mp4"
+  },
+  "chicle": {
+   "text": "CHICLE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/chicle.mp4"
+  },
+  "chimbomba": {
+   "text": "CHIMBOMBA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/chimbomba.mp4"
+  },
+  "chinche": {
+   "text": "CHINCHE",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/chinche.mp4"
+  },
+  "chinela": {
+   "text": "CHINELA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/chinela.mp4"
+  },
+  "chupeta": {
+   "text": "CHUPETA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/chupeta.mp4"
+  },
+  "ciclismo": {
+   "text": "CICLISMO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/ciclismo.mp4"
+  },
+  "ciego_ciega": {
+   "text": "CIEGO/CIEGA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/ciego_ciega.mp4"
+  },
+  "cien": {
+   "text": "CIEN",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/cien.mp4"
+  },
+  "cigarrillo_cigarro": {
+   "text": "CIGARRILLO/CIGARRO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/cigarrillo_cigarro.mp4"
+  },
+  "cinco": {
+   "text": "CINCO",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/cinco.mp4"
+  },
+  "cincuenta": {
+   "text": "CINCUENTA",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/cincuenta.mp4"
+  },
+  "ciudad": {
+   "text": "CIUDAD",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/ciudad.mp4"
+  },
+  "clavo": {
+   "text": "CLAVO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/clavo.mp4"
+  },
+  "coca_cola": {
+   "text": "COCA -COLA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/coca_cola.mp4"
+  },
+  "coche": {
+   "text": "COCHE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/coche.mp4"
+  },
+  "coco": {
+   "text": "COCO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/coco.mp4"
+  },
+  "colegio": {
+   "text": "COLEGIO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/colegio.mp4"
+  },
+  "color": {
+   "text": "COLOR",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/color.mp4"
+  },
+  "comer": {
+   "text": "COMER",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/comer.mp4"
+  },
+  "cometa_barrilete": {
+   "text": "COMETA/BARRILETE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/cometa_barrilete.mp4"
+  },
+  "comites_de_prevencion": {
+   "text": "COMITÉS DE PREVENCIÓN",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/comites_de_prevencion.mp4"
+  },
+  "computadora": {
+   "text": "COMPUTADORA",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/computadora.mp4"
+  },
+  "comunicar": {
+   "text": "COMUNICAR",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/comunicar.mp4"
+  },
+  "con": {
+   "text": "CON",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/con.mp4"
+  },
+  "conejo": {
+   "text": "CONEJO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/conejo.mp4"
+  },
+  "conferencia": {
+   "text": "CONFERENCIA",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/conferencia.mp4"
+  },
+  "configuraciones_manuales": {
+   "text": "CONFIGURACIONES MANUALES",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/configuraciones_manuales.mp4"
+  },
+  "confuso": {
+   "text": "CONFUSO",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/confuso.mp4"
+  },
+  "conocer": {
+   "text": "CONOCER",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/conocer.mp4"
+  },
+  "construir": {
+   "text": "CONSTRUIR",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/construir.mp4"
+  },
+  "contaminacion": {
+   "text": "CONTAMINACIÓN",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/contaminacion.mp4"
+  },
+  "continuar": {
+   "text": "CONTINUAR",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/continuar.mp4"
+  },
+  "corbata": {
+   "text": "CORBATA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/corbata.mp4"
+  },
+  "cordobas": {
+   "text": "CÓRDOBAS",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/cordobas.mp4"
+  },
+  "corta_unas": {
+   "text": "CORTA UÑAS",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/corta_unas.mp4"
+  },
+  "coser": {
+   "text": "COSER",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/coser.mp4"
+  },
+  "costumbre": {
+   "text": "COSTUMBRE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/costumbre.mp4"
+  },
+  "cronometro": {
+   "text": "CRONOMETRO",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/cronometro.mp4"
+  },
+  "cruz_roja": {
+   "text": "CRUZ ROJA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/cruz_roja.mp4"
+  },
+  "cuaderno": {
+   "text": "CUADERNO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/cuaderno.mp4"
+  },
+  "cuadro_cuadrado": {
+   "text": "CUADRO/ CUADRADO",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/cuadro_cuadrado.mp4"
+  },
+  "cual": {
+   "text": "¿CUÁL?",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/cual.mp4"
+  },
+  "cualquier_cualquiera": {
+   "text": "CUALQUIER/CUALQUIERA",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/cualquier_cualquiera.mp4"
+  },
+  "cuando": {
+   "text": "CUÁNDO",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/cuando.mp4"
+  },
+  "cuarenta": {
+   "text": "CUARENTA",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/cuarenta.mp4"
+  },
+  "cuarto_habitacion": {
+   "text": "CUARTO/HABITACIÓN",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/cuarto_habitacion.mp4"
+  },
+  "cuatro": {
+   "text": "CUATRO",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/cuatro.mp4"
+  },
+  "cuchara": {
+   "text": "CUCHARA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/cuchara.mp4"
+  },
+  "cucharon": {
+   "text": "CUCHARON",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/cucharon.mp4"
+  },
+  "cuerno": {
+   "text": "CUERNO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/cuerno.mp4"
+  },
+  "cuerpo": {
+   "text": "CUERPO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/cuerpo.mp4"
+  },
+  "cuidado_cuidar": {
+   "text": "CUIDADO/CUIDAR",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/cuidado_cuidar.mp4"
+  },
+  "culebra": {
+   "text": "CULEBRA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/culebra.mp4"
+  },
+  "culpa": {
+   "text": "CULPA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/culpa.mp4"
+  },
+  "cultura": {
+   "text": "CULTURA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/cultura.mp4"
+  },
+  "cumpleanos": {
+   "text": "CUMPLEAÑOS",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/cumpleanos.mp4"
+  },
+  "cunado_cunada": {
+   "text": "CUÑADO/CUÑADA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/cunado_cunada.mp4"
+  },
+  "d": {
+   "text": "D",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/d.mp4"
+  },
+  "dale": {
+   "text": "DALE",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/dale.mp4"
+  },
+  "dame": {
+   "text": "DAME",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/dame.mp4"
+  },
+  "decir": {
+   "text": "DECIR",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/decir.mp4"
+  },
+  "defensa_defender": {
+   "text": "DEFENSA/DEFENDER",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/defensa_defender.mp4"
+  },
+  "dejalo": {
+   "text": "DÉJALO",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/dejalo.mp4"
+  },
+  "deportes": {
+   "text": "DEPORTES",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/deportes.mp4"
+  },
+  "desarrollo": {
+   "text": "DESARROLLO",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/desarrollo.mp4"
+  },
+  "desastre": {
+   "text": "DESASTRE",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/desastre.mp4"
+  },
+  "deslizamiento": {
+   "text": "DESLIZAMIENTO",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/deslizamiento.mp4"
+  },
+  "desnudo_desnuda": {
+   "text": "DESNUDO/DESNUDA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/desnudo_desnuda.mp4"
+  },
+  "despacio": {
+   "text": "DESPACIO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/despacio.mp4"
+  },
+  "despues": {
+   "text": "DESPUÉS",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/despues.mp4"
+  },
+  "diario": {
+   "text": "DIARIO",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/diario.mp4"
+  },
+  "dibujo_dibujar": {
+   "text": "DIBUJO/DIBUJAR",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/dibujo_dibujar.mp4"
+  },
+  "diciembre": {
+   "text": "DICIEMBRE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/diciembre.mp4"
+  },
+  "diecinueve": {
+   "text": "DIECINUEVE",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/diecinueve.mp4"
+  },
+  "dieciocho": {
+   "text": "DIECIOCHO",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/dieciocho.mp4"
+  },
+  "dieciseis": {
+   "text": "DIECISÉIS",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/dieciseis.mp4"
+  },
+  "diecisiete": {
+   "text": "DIECISIETE",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/diecisiete.mp4"
+  },
+  "diez": {
+   "text": "DIEZ",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/diez.mp4"
+  },
+  "diferente": {
+   "text": "DIFERENTE",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/diferente.mp4"
+  },
+  "diploma": {
+   "text": "DIPLOMA",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/diploma.mp4"
+  },
+  "doce": {
+   "text": "DOCE",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/doce.mp4"
+  },
+  "dolar": {
+   "text": "DOLAR",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/dolar.mp4"
+  },
+  "dolor_de_cabeza": {
+   "text": "DOLOR DE CABEZA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/dolor_de_cabeza.mp4"
+  },
+  "dormir": {
+   "text": "DORMIR",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/dormir.mp4"
+  },
+  "dos": {
+   "text": "DOS",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/dos.mp4"
+  },
+  "e": {
+   "text": "E",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/e.mp4"
+  },
+  "edificio": {
+   "text": "EDIFICIO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/edificio.mp4"
+  },
+  "elote": {
+   "text": "ELOTE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/elote.mp4"
+  },
+  "embajada": {
+   "text": "EMBAJADA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/embajada.mp4"
+  },
+  "embarazada": {
+   "text": "EMBARAZADA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/embarazada.mp4"
+  },
+  "enamorada_enamorado": {
+   "text": "ENAMORADA/ENAMORADO",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/enamorada_enamorado.mp4"
+  },
+  "enchufe": {
+   "text": "ENCHUFE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/enchufe.mp4"
+  },
+  "encontrar": {
+   "text": "ENCONTRAR",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/encontrar.mp4"
+  },
+  "enfermera": {
+   "text": "ENFERMERA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/enfermera.mp4"
+  },
+  "entender": {
+   "text": "ENTENDER",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/entender.mp4"
+  },
+  "equivocado": {
+   "text": "EQUIVOCADO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/equivocado.mp4"
+  },
+  "erupcion_volcanica": {
+   "text": "ERUPCIÓN VOLCÁNICA",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/erupcion_volcanica.mp4"
+  },
+  "escalera": {
+   "text": "ESCALERA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/escalera.mp4"
+  },
+  "escaleras": {
+   "text": "ESCALERAS",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/escaleras.mp4"
+  },
+  "escoba_barrer": {
+   "text": "ESCOBA / BARRER",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/escoba_barrer.mp4"
+  },
+  "escribir_lapiz": {
+   "text": "ESCRIBIR/LÁPIZ",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/escribir_lapiz.mp4"
+  },
+  "especial": {
+   "text": "ESPECIAL",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/especial.mp4"
+  },
+  "espejo": {
+   "text": "ESPEJO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/espejo.mp4"
+  },
+  "esperar": {
+   "text": "ESPERAR",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/esperar.mp4"
+  },
+  "esposo_esposa": {
+   "text": "ESPOSO/ESPOSA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/esposo_esposa.mp4"
+  },
+  "estrella": {
+   "text": "ESTRELLA",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/estrella.mp4"
+  },
+  "estudiar": {
+   "text": "ESTUDIAR",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/estudiar.mp4"
+  },
+  "evacuacion": {
+   "text": "EVACUACIÓN",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/evacuacion.mp4"
+  },
+  "examen": {
+   "text": "EXAMEN",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/examen.mp4"
+  },
+  "experiencia": {
+   "text": "EXPERIENCIA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/experiencia.mp4"
+  },
+  "explicar": {
+   "text": "EXPLICAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/explicar.mp4"
+  },
+  "f": {
+   "text": "F",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/f.mp4"
+  },
+  "fabrica": {
+   "text": "FABRICA",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/fabrica.mp4"
+  },
+  "facil": {
+   "text": "FÁCIL",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/facil.mp4"
+  },
+  "faja": {
+   "text": "FAJA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/faja.mp4"
+  },
+  "falda": {
+   "text": "FALDA",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/falda.mp4"
+  },
+  "falta": {
+   "text": "FALTA",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/falta.mp4"
+  },
+  "familia": {
+   "text": "FAMILIA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/familia.mp4"
+  },
+  "famoso_famosa": {
+   "text": "FAMOSO/FAMOSA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/famoso_famosa.mp4"
+  },
+  "farmacia": {
+   "text": "FARMACIA",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/farmacia.mp4"
+  },
+  "fecha": {
+   "text": "FECHA",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/fecha.mp4"
+  },
+  "feliz_felicidad": {
+   "text": "FELIZ/FELICIDAD",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/feliz_felicidad.mp4"
+  },
+  "feria": {
+   "text": "FERIA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/feria.mp4"
+  },
+  "fiesta": {
+   "text": "FIESTA",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/fiesta.mp4"
+  },
+  "fila": {
+   "text": "FILA",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/fila.mp4"
+  },
+  "firma": {
+   "text": "FIRMA",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/firma.mp4"
+  },
+  "flaco_flaca": {
+   "text": "FLACO/FLACA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/flaco_flaca.mp4"
+  },
+  "flaquito_flaquita": {
+   "text": "FLAQUITO/FLAQUITA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/flaquito_flaquita.mp4"
+  },
+  "flecha": {
+   "text": "FLECHA",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/flecha.mp4"
+  },
+  "foco": {
+   "text": "FOCO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/foco.mp4"
+  },
+  "fosforo": {
+   "text": "FOSFORO",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/fosforo.mp4"
+  },
+  "frio": {
+   "text": "FRIO",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/frio.mp4"
+  },
+  "frontera": {
+   "text": "FRONTERA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/frontera.mp4"
+  },
+  "frutas": {
+   "text": "FRUTAS",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/frutas.mp4"
+  },
+  "fuera": {
+   "text": "¡FUERA!",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/fuera.mp4"
+  },
+  "fuerte": {
+   "text": "FUERTE",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/fuerte.mp4"
+  },
+  "fumar": {
+   "text": "FUMAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/fumar.mp4"
+  },
+  "furiosa_furioso": {
+   "text": "FURIOSA/FURIOSO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/furiosa_furioso.mp4"
+  },
+  "futuro": {
+   "text": "FUTURO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/futuro.mp4"
+  },
+  "g": {
+   "text": "G",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/g.mp4"
+  },
+  "g_l_7": {
+   "text": "G-L-7",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/g_l_7.mp4"
+  },
+  "galleta": {
+   "text": "GALLETA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/galleta.mp4"
+  },
+  "gallina": {
+   "text": "GALLINA",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/gallina.mp4"
+  },
+  "gallo": {
+   "text": "GALLO",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/gallo.mp4"
+  },
+  "garra": {
+   "text": "GARRA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/garra.mp4"
+  },
+  "gaseosa": {
+   "text": "GASEOSA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/gaseosa.mp4"
+  },
+  "gato_gata": {
+   "text": "GATO/GATA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/gato_gata.mp4"
+  },
+  "general": {
+   "text": "GENERAL",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/general.mp4"
+  },
+  "gestion_integral_de_riesgo": {
+   "text": "GESTIÓN INTEGRAL DE RIESGO",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/gestion_integral_de_riesgo.mp4"
+  },
+  "gordo_gorda": {
+   "text": "GORDO/GORDA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/gordo_gorda.mp4"
+  },
+  "gorra": {
+   "text": "GORRA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/gorra.mp4"
+  },
+  "gracias": {
+   "text": "GRACIAS",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/gracias.mp4"
+  },
+  "grama": {
+   "text": "GRAMA",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/grama.mp4"
+  },
+  "grande": {
+   "text": "GRANDE",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/grande.mp4"
+  },
+  "gritar": {
+   "text": "GRITAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/gritar.mp4"
+  },
+  "guantes": {
+   "text": "GUANTES",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/guantes.mp4"
+  },
+  "guardar": {
+   "text": "GUARDAR",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/guardar.mp4"
+  },
+  "guitarra": {
+   "text": "GUITARRA",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/guitarra.mp4"
+  },
+  "h": {
+   "text": "H",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/h.mp4"
+  },
+  "h_n_u": {
+   "text": "H-N-U",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/h_n_u.mp4"
+  },
+  "h_p": {
+   "text": "СHАPА",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/h_p.mp4"
+  },
+  "hablar": {
+   "text": "HABLAR",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/hablar.mp4"
+  },
+  "hacer": {
+   "text": "HACER",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/hacer.mp4"
+  },
+  "hacer_el_amor": {
+   "text": "HACER EL AMOR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/hacer_el_amor.mp4"
+  },
+  "hacha": {
+   "text": "HACHA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/hacha.mp4"
+  },
+  "hambre": {
+   "text": "HAMBRE",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/hambre.mp4"
+  },
+  "hamburguesa": {
+   "text": "HAMBURGUESA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/hamburguesa.mp4"
+  },
+  "hay": {
+   "text": "HAY",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/hay.mp4"
+  },
+  "helado": {
+   "text": "HELADO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/helado.mp4"
+  },
+  "hijo_hija": {
+   "text": "HIJO/HIJA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/hijo_hija.mp4"
+  },
+  "himno": {
+   "text": "HIMNO",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/himno.mp4"
+  },
+  "historia": {
+   "text": "HISTORIA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/historia.mp4"
+  },
+  "hoja": {
+   "text": "HOJA",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/hoja.mp4"
+  },
+  "hola": {
+   "text": "HOLA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/hola.mp4"
+  },
+  "hongos": {
+   "text": "HONGOS",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/hongos.mp4"
+  },
+  "horrible": {
+   "text": "HORRIBLE",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/horrible.mp4"
+  },
+  "hospital": {
+   "text": "HOSPITAL",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/hospital.mp4"
+  },
+  "hoy": {
+   "text": "HOY",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/hoy.mp4"
+  },
+  "huelga_paro": {
+   "text": "HUELGA / PARO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/huelga_paro.mp4"
+  },
+  "huracan": {
+   "text": "HURACÁN",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/huracan.mp4"
+  },
+  "i": {
+   "text": "I",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/i.mp4"
+  },
+  "i_j_y": {
+   "text": "I-J-Y",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/i_j_y.mp4"
+  },
+  "idea": {
+   "text": "IDEA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/idea.mp4"
+  },
+  "idioma": {
+   "text": "IDIOMA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/idioma.mp4"
+  },
+  "iglesia": {
+   "text": "IGLESIA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/iglesia.mp4"
+  },
+  "igual": {
+   "text": "IGUAL",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/igual.mp4"
+  },
+  "importante": {
+   "text": "IMPORTANTE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/importante.mp4"
+  },
+  "imposible": {
+   "text": "IMPOSIBLE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/imposible.mp4"
+  },
+  "incendic": {
+   "text": "INCENDIC",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/incendic.mp4"
+  },
+  "inclusion": {
+   "text": "INCLUSIÓN",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/inclusion.mp4"
+  },
+  "infantil": {
+   "text": "INFANTIL",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/infantil.mp4"
+  },
+  "informacion_informar": {
+   "text": "INFORMACIÓN/INFORMAR",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/informacion_informar.mp4"
+  },
+  "ingles": {
+   "text": "INGLES",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/ingles.mp4"
+  },
+  "inodoro": {
+   "text": "INODORO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/inodoro.mp4"
+  },
+  "interprete": {
+   "text": "INTERPRETE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/interprete.mp4"
+  },
+  "inundacion": {
+   "text": "INUNDACIÓN",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/inundacion.mp4"
+  },
+  "invitar": {
+   "text": "INVITAR",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/invitar.mp4"
+  },
+  "inyeccion": {
+   "text": "INYECCIÓN",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/inyeccion.mp4"
+  },
+  "izquierda_o_derecha": {
+   "text": "IZQUIERDA O DERECHA",
+   "signer": "hombrejoven",
+   "title": "INTRODUCCIÓN AL CURSO BÁSICO  DE LENGUA DE SEÑAS (GIR)",
+   "clip": "clips/izquierda_o_derecha.mp4"
+  },
+  "jabon_lava_ropa": {
+   "text": "JABÓN LAVA ROPA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/jabon_lava_ropa.mp4"
+  },
+  "jarabe": {
+   "text": "JARABE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/jarabe.mp4"
+  },
+  "jesus": {
+   "text": "JESÚS",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/jesus.mp4"
+  },
+  "joven": {
+   "text": "JOVEN",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/joven.mp4"
+  },
+  "jueves": {
+   "text": "JUEVES",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/jueves.mp4"
+  },
+  "jugar": {
+   "text": "JUGAR",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/jugar.mp4"
+  },
+  "jugar_billar": {
+   "text": "JUGAR BILLAR",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/jugar_billar.mp4"
+  },
+  "julio": {
+   "text": "JULIO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/julio.mp4"
+  },
+  "junio": {
+   "text": "JUNIO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/junio.mp4"
+  },
+  "junto": {
+   "text": "JUNTO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/junto.mp4"
+  },
+  "k": {
+   "text": "K",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/k.mp4"
+  },
+  "k_p": {
+   "text": "K-P",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/k_p.mp4"
+  },
+  "kilometro": {
+   "text": "KILOMETRO",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/kilometro.mp4"
+  },
+  "laboratorio_de_analisis": {
+   "text": "LABORATORIO DE ANÁLISIS",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/laboratorio_de_analisis.mp4"
+  },
+  "lanza": {
+   "text": "LANZA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/lanza.mp4"
+  },
+  "lapicero": {
+   "text": "LAPICERO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/lapicero.mp4"
+  },
+  "lavaplatos": {
+   "text": "LAVAPLATOS",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/lavaplatos.mp4"
+  },
+  "lavar_las_manos": {
+   "text": "LAVAR LAS MANOS",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/lavar_las_manos.mp4"
+  },
+  "lavar_ropa": {
+   "text": "LAVAR ROPA",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/lavar_ropa.mp4"
+  },
+  "leche": {
+   "text": "LECHE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/leche.mp4"
+  },
+  "lechuga": {
+   "text": "LECHUGA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/lechuga.mp4"
+  },
+  "leer": {
+   "text": "LEER",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/leer.mp4"
+  },
+  "lena": {
+   "text": "LEÑA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/lena.mp4"
+  },
+  "levantarse": {
+   "text": "LEVANTARSE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/levantarse.mp4"
+  },
+  "libro": {
+   "text": "LIBRO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/libro.mp4"
+  },
+  "ll": {
+   "text": "LL",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/ll.mp4"
+  },
+  "llamar": {
+   "text": "LLAMAR",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/llamar.mp4"
+  },
+  "llave": {
+   "text": "LLAVE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/llave.mp4"
+  },
+  "llorar": {
+   "text": "LLORAR",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/llorar.mp4"
+  },
+  "lo_mismo": {
+   "text": "LO MISMO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/lo_mismo.mp4"
+  },
+  "lo_siento": {
+   "text": "LO SIENTO",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/lo_siento.mp4"
+  },
+  "lupa": {
+   "text": "LUPA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/lupa.mp4"
+  },
+  "m": {
+   "text": "M",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/m.mp4"
+  },
+  "m_w_3": {
+   "text": "M-W-3",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/m_w_3.mp4"
+  },
+  "machete": {
+   "text": "MACHETE",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/machete.mp4"
+  },
+  "maduro": {
+   "text": "MADURO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/maduro.mp4"
+  },
+  "maestro_maestra": {
+   "text": "MAESTRO/MAESTRA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/maestro_maestra.mp4"
+  },
+  "mal_malo_mala": {
+   "text": "MAL/MALO/MALA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/mal_malo_mala.mp4"
+  },
+  "maleta": {
+   "text": "MALETA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/maleta.mp4"
+  },
+  "malla": {
+   "text": "MALLA",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/malla.mp4"
+  },
+  "manana": {
+   "text": "MAÑANA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/manana.mp4"
+  },
+  "mantequilla": {
+   "text": "MANTEQUILLA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/mantequilla.mp4"
+  },
+  "manzana": {
+   "text": "MANZANA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/manzana.mp4"
+  },
+  "maquina_de_escribir": {
+   "text": "MÁQUINA DE ESCRIBIR",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/maquina_de_escribir.mp4"
+  },
+  "mar": {
+   "text": "MAR",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/mar.mp4"
+  },
+  "martillo": {
+   "text": "MARTILLO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/martillo.mp4"
+  },
+  "marzo": {
+   "text": "MARZO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/marzo.mp4"
+  },
+  "matar": {
+   "text": "MATAR",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/matar.mp4"
+  },
+  "mayor": {
+   "text": "MAYOR",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/mayor.mp4"
+  },
+  "me_dijo": {
+   "text": "ME DIJO",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/me_dijo.mp4"
+  },
+  "me_gusta": {
+   "text": "ME GUSTA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/me_gusta.mp4"
+  },
+  "me_voy_nos_vamos": {
+   "text": "ME VOY/NOS VAMOS",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/me_voy_nos_vamos.mp4"
+  },
+  "mediano_mediana": {
+   "text": "MEDIANO/MEDIANA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/mediano_mediana.mp4"
+  },
+  "medio_circulo": {
+   "text": "MEDIO CIRCULO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/medio_circulo.mp4"
+  },
+  "menor": {
+   "text": "MENOR",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/menor.mp4"
+  },
+  "mentira": {
+   "text": "MENTIRA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/mentira.mp4"
+  },
+  "mentiroso_mentirosa": {
+   "text": "MENTIROSO/MENTIROSA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/mentiroso_mentirosa.mp4"
+  },
+  "mercado": {
+   "text": "MERCADO",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/mercado.mp4"
+  },
+  "mes": {
+   "text": "MES",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/mes.mp4"
+  },
+  "mesa": {
+   "text": "MESA",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/mesa.mp4"
+  },
+  "microbus": {
+   "text": "MICROBÚS",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/microbus.mp4"
+  },
+  "mil": {
+   "text": "MIL",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/mil.mp4"
+  },
+  "millon": {
+   "text": "MILLÓN",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/millon.mp4"
+  },
+  "mina": {
+   "text": "MINA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/mina.mp4"
+  },
+  "mirar": {
+   "text": "MIRAR",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/mirar.mp4"
+  },
+  "misa": {
+   "text": "MISA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/misa.mp4"
+  },
+  "mitigacion": {
+   "text": "MITIGACIÓN",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/mitigacion.mp4"
+  },
+  "monja": {
+   "text": "MONJA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/monja.mp4"
+  },
+  "moreno_morena": {
+   "text": "MORENO/MORENA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/moreno_morena.mp4"
+  },
+  "morir_muerto_muerta": {
+   "text": "MORIR/MUERTO/MUERTA",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/morir_muerto_muerta.mp4"
+  },
+  "mosca": {
+   "text": "MOSCA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/mosca.mp4"
+  },
+  "moto": {
+   "text": "MOTO",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/moto.mp4"
+  },
+  "muchacha_hermosa": {
+   "text": "MUCHACHA HERMOSA",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/muchacha_hermosa.mp4"
+  },
+  "mucho_tiempo": {
+   "text": "MUCHO TIEMPO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/mucho_tiempo.mp4"
+  },
+  "mujer": {
+   "text": "MUJER",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/mujer.mp4"
+  },
+  "muleta": {
+   "text": "MULETA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/muleta.mp4"
+  },
+  "mundo": {
+   "text": "MUNDO",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/mundo.mp4"
+  },
+  "murcielago_vampiro": {
+   "text": "MURCIELAGO/VAMPIRO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/murcielago_vampiro.mp4"
+  },
+  "musica": {
+   "text": "MÚSICA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/musica.mp4"
+  },
+  "n": {
+   "text": "N",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/n.mp4"
+  },
+  "nacer": {
+   "text": "NACER",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/nacer.mp4"
+  },
+  "nada": {
+   "text": "NADA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/nada.mp4"
+  },
+  "nadar": {
+   "text": "NADAR",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/nadar.mp4"
+  },
+  "nariz": {
+   "text": "NARIZ",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/nariz.mp4"
+  },
+  "necesitar": {
+   "text": "NECESITAR",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/necesitar.mp4"
+  },
+  "negro": {
+   "text": "NEGRO",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/negro.mp4"
+  },
+  "nervioso_nerviosa": {
+   "text": "NERVIOSO/NERVIOSA",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/nervioso_nerviosa.mp4"
+  },
+  "nieto_nieta": {
+   "text": "NIETO/NIETA",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/nieto_nieta.mp4"
+  },
+  "nino_nina": {
+   "text": "NIÑO/NIÑA",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/nino_nina.mp4"
+  },
+  "nn": {
+   "text": "NN",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/nn.mp4"
+  },
+  "no": {
+   "text": "¡NO!",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/no.mp4"
+  },
+  "no_conocer": {
+   "text": "NO CONOCER",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/no_conocer.mp4"
+  },
+  "no_hablar": {
+   "text": "NO HABLAR",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/no_hablar.mp4"
+  },
+  "no_importa": {
+   "text": "NO IMPORTA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/no_importa.mp4"
+  },
+  "no_me_gusta": {
+   "text": "NO ME GUSTA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/no_me_gusta.mp4"
+  },
+  "no_puedo": {
+   "text": "NO PUEDO",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/no_puedo.mp4"
+  },
+  "no_sabia": {
+   "text": "NO SABIA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/no_sabia.mp4"
+  },
+  "no_se": {
+   "text": "NO SE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/no_se.mp4"
+  },
+  "noche": {
+   "text": "NOCHE",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/noche.mp4"
+  },
+  "nombre": {
+   "text": "NOMBRE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/nombre.mp4"
+  },
+  "normal": {
+   "text": "NORMAL",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/normal.mp4"
+  },
+  "nosotros": {
+   "text": "NOSOTROS",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/nosotros.mp4"
+  },
+  "noticias_periodista": {
+   "text": "NOTICIAS / PERIODISTA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/noticias_periodista.mp4"
+  },
+  "noventa": {
+   "text": "NOVENTA",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/noventa.mp4"
+  },
+  "noviembre": {
+   "text": "NOVIEMBRE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/noviembre.mp4"
+  },
+  "novio_novia": {
+   "text": "NOVIO/NOVIA",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/novio_novia.mp4"
+  },
+  "nublado": {
+   "text": "NUBLADO",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/nublado.mp4"
+  },
+  "nueve": {
+   "text": "NUEVE",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/nueve.mp4"
+  },
+  "numero": {
+   "text": "NÚMERO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/numero.mp4"
+  },
+  "nunca": {
+   "text": "NUNCA",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/nunca.mp4"
+  },
+  "o": {
+   "text": "O",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/o.mp4"
+  },
+  "obstaculo": {
+   "text": "OBSTACULO",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/obstaculo.mp4"
+  },
+  "ochenta": {
+   "text": "OCHENTA",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/ochenta.mp4"
+  },
+  "ocho": {
+   "text": "OCHO",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/ocho.mp4"
+  },
+  "octubre": {
+   "text": "OCTUBRE",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/octubre.mp4"
+  },
+  "odio_odiar": {
+   "text": "ODIO/ODIAR",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/odio_odiar.mp4"
+  },
+  "ojo": {
+   "text": "OJO",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/ojo.mp4"
+  },
+  "ok": {
+   "text": "OK",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/ok.mp4"
+  },
+  "olvidar": {
+   "text": "OLVIDAR",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/olvidar.mp4"
+  },
+  "on": {
+   "text": "¡ON!",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/on.mp4"
+  },
+  "once": {
+   "text": "ONCE",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/once.mp4"
+  },
+  "operacion_operar": {
+   "text": "OPERACIÓN/OPERAR",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/operacion_operar.mp4"
+  },
+  "orden_ordenar": {
+   "text": "ORDEN/ORDENAR",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/orden_ordenar.mp4"
+  },
+  "oreja": {
+   "text": "OREJA",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/oreja.mp4"
+  },
+  "organizacion": {
+   "text": "ORGANIZACION",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/organizacion.mp4"
+  },
+  "orgulloso_orgullosa": {
+   "text": "ORGULLOSO/ORGULLOSA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/orgulloso_orgullosa.mp4"
+  },
+  "otro_otra": {
+   "text": "OTRO/OTRA",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/otro_otra.mp4"
+  },
+  "oveja": {
+   "text": "OVEJA",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/oveja.mp4"
+  },
+  "oyente": {
+   "text": "OYENTE",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/oyente.mp4"
+  },
+  "p": {
+   "text": "P",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/p.mp4"
+  },
+  "pacha": {
+   "text": "PACHA",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/pacha.mp4"
+  },
+  "padrastro": {
+   "text": "PADRASTRO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/padrastro.mp4"
+  },
+  "padrino_madrina": {
+   "text": "PADRINO/MADRINA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/padrino_madrina.mp4"
+  },
+  "paila": {
+   "text": "PAILA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/paila.mp4"
+  },
+  "pais": {
+   "text": "PAÍS",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/pais.mp4"
+  },
+  "paises": {
+   "text": "PAÍSES",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/paises.mp4"
+  },
+  "pajaro": {
+   "text": "PÁJARO",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/pajaro.mp4"
+  },
+  "pala": {
+   "text": "PALA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/pala.mp4"
+  },
+  "palabra": {
+   "text": "PALABRA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/palabra.mp4"
+  },
+  "palma_doblada": {
+   "text": "PALMA DOBLADA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/palma_doblada.mp4"
+  },
+  "palmera": {
+   "text": "PALMERA",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/palmera.mp4"
+  },
+  "paloma": {
+   "text": "PALOMA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/paloma.mp4"
+  },
+  "pan": {
+   "text": "PAN",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/pan.mp4"
+  },
+  "pandilla": {
+   "text": "PANDILLA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/pandilla.mp4"
+  },
+  "pantalon": {
+   "text": "PANTALÓN",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/pantalon.mp4"
+  },
+  "papas": {
+   "text": "PAPAS",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/papas.mp4"
+  },
+  "papas_fritas": {
+   "text": "PAPAS FRITAS",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/papas_fritas.mp4"
+  },
+  "papaya": {
+   "text": "PAPAYA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/papaya.mp4"
+  },
+  "papel": {
+   "text": "PAPEL",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/papel.mp4"
+  },
+  "papel_higienico": {
+   "text": "PAPEL HIGIÉNICO",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/papel_higienico.mp4"
+  },
+  "para_que": {
+   "text": "¿PARA QUÉ?",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/para_que.mp4"
+  },
+  "parada": {
+   "text": "PARADA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/parada.mp4"
+  },
+  "paraguas": {
+   "text": "PARAGUAS",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/paraguas.mp4"
+  },
+  "parece": {
+   "text": "PARECE",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/parece.mp4"
+  },
+  "parque": {
+   "text": "PARQUE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/parque.mp4"
+  },
+  "participacion": {
+   "text": "PARTICIPACIÓN",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/participacion.mp4"
+  },
+  "pastilla": {
+   "text": "PASTILLA",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/pastilla.mp4"
+  },
+  "pastor": {
+   "text": "PASTOR",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/pastor.mp4"
+  },
+  "pato": {
+   "text": "PATO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/pato.mp4"
+  },
+  "pecado": {
+   "text": "PECADO",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/pecado.mp4"
+  },
+  "pega": {
+   "text": "PEGA",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/pega.mp4"
+  },
+  "peine_peinar": {
+   "text": "PEINE/PEINAR",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/peine_peinar.mp4"
+  },
+  "pelea_pelear": {
+   "text": "PELEA/PELEAR",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/pelea_pelear.mp4"
+  },
+  "pelicula": {
+   "text": "PELÍCULA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/pelicula.mp4"
+  },
+  "peligroso": {
+   "text": "PELIGROSO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/peligroso.mp4"
+  },
+  "pelon_calvo": {
+   "text": "PELON/CALVO",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/pelon_calvo.mp4"
+  },
+  "peluca": {
+   "text": "PELUCA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/peluca.mp4"
+  },
+  "pensar": {
+   "text": "PENSAR",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/pensar.mp4"
+  },
+  "peor": {
+   "text": "PEOR",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/peor.mp4"
+  },
+  "pequenito": {
+   "text": "PEQUEÑITO",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/pequenito.mp4"
+  },
+  "pera": {
+   "text": "PERA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/pera.mp4"
+  },
+  "percepcion_del_riesgo": {
+   "text": "PERCEPCIÓN DEL RIESGO",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/percepcion_del_riesgo.mp4"
+  },
+  "perder": {
+   "text": "PERDER",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/perder.mp4"
+  },
+  "perdon": {
+   "text": "PERDÓN",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/perdon.mp4"
+  },
+  "perfecto": {
+   "text": "PERFECTO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/perfecto.mp4"
+  },
+  "periodico": {
+   "text": "PERIODICO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/periodico.mp4"
+  },
+  "permiso": {
+   "text": "PERMISO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/permiso.mp4"
+  },
+  "persona": {
+   "text": "PERSONA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/persona.mp4"
+  },
+  "personal": {
+   "text": "PERSONAL",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/personal.mp4"
+  },
+  "personas_con_discapacidad": {
+   "text": "PERSONAS CON DISCAPACIDAD",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/personas_con_discapacidad.mp4"
+  },
+  "pesada_pesado": {
+   "text": "PESADA/PESADO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/pesada_pesado.mp4"
+  },
+  "pez": {
+   "text": "PEZ",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/pez.mp4"
+  },
+  "picar": {
+   "text": "PICAR",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/picar.mp4"
+  },
+  "pico": {
+   "text": "PICO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/pico.mp4"
+  },
+  "piedra": {
+   "text": "PIEDRA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/piedra.mp4"
+  },
+  "pies": {
+   "text": "PIES",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/pies.mp4"
+  },
+  "pina": {
+   "text": "PIÑA",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/pina.mp4"
+  },
+  "pinata": {
+   "text": "PIÑATA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/pinata.mp4"
+  },
+  "pinche_avaro": {
+   "text": "PINCHE / AVARO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/pinche_avaro.mp4"
+  },
+  "piojos": {
+   "text": "PIOJOS",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/piojos.mp4"
+  },
+  "pizarra": {
+   "text": "PIZARRA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/pizarra.mp4"
+  },
+  "planes_de_respuesta": {
+   "text": "PLANES DE RESPUESTA",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/planes_de_respuesta.mp4"
+  },
+  "platano": {
+   "text": "PLÁTANO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/platano.mp4"
+  },
+  "plato": {
+   "text": "PLATO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/plato.mp4"
+  },
+  "playa": {
+   "text": "PLAYA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/playa.mp4"
+  },
+  "pobrecita_pobrecito": {
+   "text": "POBRECITA/POBRECITO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/pobrecita_pobrecito.mp4"
+  },
+  "pochomil": {
+   "text": "POCHOMIL",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/pochomil.mp4"
+  },
+  "policia": {
+   "text": "POLICÍA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/policia.mp4"
+  },
+  "polvo": {
+   "text": "POLVO",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/polvo.mp4"
+  },
+  "por_favor": {
+   "text": "POR FAVOR",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/por_favor.mp4"
+  },
+  "por_que": {
+   "text": "¿POR QUÉ?",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/por_que.mp4"
+  },
+  "por_x_multiplicacion": {
+   "text": "POR(X)/ MULTIPLICACIÓN",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/por_x_multiplicacion.mp4"
+  },
+  "porcentaje": {
+   "text": "PORCENTAJE",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/porcentaje.mp4"
+  },
+  "posible": {
+   "text": "POSIBLE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/posible.mp4"
+  },
+  "pregunta_preguntar": {
+   "text": "PREGUNTA/PREGUNTAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/pregunta_preguntar.mp4"
+  },
+  "preocupado": {
+   "text": "PREOCUPADO",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/preocupado.mp4"
+  },
+  "presidente": {
+   "text": "PRESIDENTE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/presidente.mp4"
+  },
+  "prevencion": {
+   "text": "PREVENCIÓN",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/prevencion.mp4"
+  },
+  "prima": {
+   "text": "PRIMA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/prima.mp4"
+  },
+  "primo": {
+   "text": "PRIMO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/primo.mp4"
+  },
+  "privado": {
+   "text": "PRIVADO",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/privado.mp4"
+  },
+  "profesor_profesora": {
+   "text": "PROFESOR/PROFESORA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/profesor_profesora.mp4"
+  },
+  "programa_todos_con_voz": {
+   "text": "PROGRAMA TODOS CON VOZ",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/programa_todos_con_voz.mp4"
+  },
+  "prohibido": {
+   "text": "PROHIBIDO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/prohibido.mp4"
+  },
+  "promesa": {
+   "text": "PROMESA",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/promesa.mp4"
+  },
+  "pueblo": {
+   "text": "PUEBLO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN K-P",
+   "clip": "clips/pueblo.mp4"
+  },
+  "puede": {
+   "text": "PUEDE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/puede.mp4"
+  },
+  "puerta": {
+   "text": "PUERTA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/puerta.mp4"
+  },
+  "pupu": {
+   "text": "PUPU",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/pupu.mp4"
+  },
+  "q": {
+   "text": "Q",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/q.mp4"
+  },
+  "que": {
+   "text": "¿QUÉ?",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/que.mp4"
+  },
+  "queso": {
+   "text": "QUESO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/queso.mp4"
+  },
+  "quince": {
+   "text": "QUINCE",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/quince.mp4"
+  },
+  "quinientos": {
+   "text": "QUINIENTOS",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/quinientos.mp4"
+  },
+  "r": {
+   "text": "R",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/r.mp4"
+  },
+  "radio": {
+   "text": "RADIO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/radio.mp4"
+  },
+  "rastrillo": {
+   "text": "RASTRILLO",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/rastrillo.mp4"
+  },
+  "raton": {
+   "text": "RATÓN",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/raton.mp4"
+  },
+  "reduccion_del_riesgo": {
+   "text": "REDUCCIÓN DEL RIESGO",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/reduccion_del_riesgo.mp4"
+  },
+  "refrigeradora": {
+   "text": "REFRIGERADORA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/refrigeradora.mp4"
+  },
+  "regular": {
+   "text": "REGULAR",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/regular.mp4"
+  },
+  "reloj": {
+   "text": "RELOJ",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/reloj.mp4"
+  },
+  "repollo": {
+   "text": "REPOLLO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/repollo.mp4"
+  },
+  "resbaladero": {
+   "text": "RESBALADERO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/resbaladero.mp4"
+  },
+  "resilencia": {
+   "text": "RESILENCIA",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/resilencia.mp4"
+  },
+  "rico_rica": {
+   "text": "RICO/RICA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/rico_rica.mp4"
+  },
+  "ride": {
+   "text": "RIDE",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/ride.mp4"
+  },
+  "rifa": {
+   "text": "RIFA",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/rifa.mp4"
+  },
+  "ring": {
+   "text": "RING",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/ring.mp4"
+  },
+  "robar": {
+   "text": "ROBAR",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/robar.mp4"
+  },
+  "romper_roto": {
+   "text": "ROMPER/ROTO",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/romper_roto.mp4"
+  },
+  "rr": {
+   "text": "RR",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/rr.mp4"
+  },
+  "rutas_de_evacuacion": {
+   "text": "RUTAS DE EVACUACIÓN",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/rutas_de_evacuacion.mp4"
+  },
+  "s": {
+   "text": "S",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/s.mp4"
+  },
+  "sabado": {
+   "text": "SÁBADO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/sabado.mp4"
+  },
+  "saber": {
+   "text": "SABER",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/saber.mp4"
+  },
+  "sacar_muela": {
+   "text": "SACAR MUELA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/sacar_muela.mp4"
+  },
+  "saco": {
+   "text": "SACO",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/saco.mp4"
+  },
+  "salto_saltar": {
+   "text": "SALTO/SALTAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/salto_saltar.mp4"
+  },
+  "saludos_saludar": {
+   "text": "SALUDOS/SALUDAR",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/saludos_saludar.mp4"
+  },
+  "sandia": {
+   "text": "SANDIA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/sandia.mp4"
+  },
+  "sandinista": {
+   "text": "SANDINISTA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/sandinista.mp4"
+  },
+  "santo": {
+   "text": "SANTO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/santo.mp4"
+  },
+  "sarampion": {
+   "text": "SARAMPIÓN",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/sarampion.mp4"
+  },
+  "satisfecho": {
+   "text": "SATISFECHO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/satisfecho.mp4"
+  },
+  "secretaria": {
+   "text": "SECRETARIA",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/secretaria.mp4"
+  },
+  "sed": {
+   "text": "SED",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/sed.mp4"
+  },
+  "segundo": {
+   "text": "SEGUNDO",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/segundo.mp4"
+  },
+  "seguridad_proteccion": {
+   "text": "SEGURIDAD/PROTECCIÓN",
+   "signer": "hombrerojo",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR Parte 2\"",
+   "clip": "clips/seguridad_proteccion.mp4"
+  },
+  "seguro": {
+   "text": "SEGURO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/seguro.mp4"
+  },
+  "seis": {
+   "text": "SEIS",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/seis.mp4"
+  },
+  "semaforo": {
+   "text": "SEMÁFORO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/semaforo.mp4"
+  },
+  "semana": {
+   "text": "SEMANA",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/semana.mp4"
+  },
+  "seminario": {
+   "text": "SEMINARIO",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/seminario.mp4"
+  },
+  "sena_mimica": {
+   "text": "SEÑA/MIMICA",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/sena_mimica.mp4"
+  },
+  "senorita": {
+   "text": "SEÑORITA",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/senorita.mp4"
+  },
+  "separado_separada_separar": {
+   "text": "SEPARADO/SEPARADA/SEPARAR",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/separado_separada_separar.mp4"
+  },
+  "sequia": {
+   "text": "SEQUIA",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/sequia.mp4"
+  },
+  "seria_serio": {
+   "text": "SERIA/SERIO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/seria_serio.mp4"
+  },
+  "serrucho": {
+   "text": "SERRUCHO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/serrucho.mp4"
+  },
+  "sesenta": {
+   "text": "SESENTA",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/sesenta.mp4"
+  },
+  "setenta": {
+   "text": "SETENTA",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/setenta.mp4"
+  },
+  "sexo": {
+   "text": "SEXO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/sexo.mp4"
+  },
+  "short": {
+   "text": "SHORT",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/short.mp4"
+  },
+  "si": {
+   "text": "SI",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/si.mp4"
+  },
+  "sida": {
+   "text": "SIDA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/sida.mp4"
+  },
+  "siempre": {
+   "text": "SIEMPRE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/siempre.mp4"
+  },
+  "siete": {
+   "text": "SIETE",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/siete.mp4"
+  },
+  "silencio": {
+   "text": "SILENCIO",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/silencio.mp4"
+  },
+  "silla": {
+   "text": "SILLA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/silla.mp4"
+  },
+  "silla_de_ruedas": {
+   "text": "SILLA DE RUEDAS",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/silla_de_ruedas.mp4"
+  },
+  "sillon": {
+   "text": "SILLÓN",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/sillon.mp4"
+  },
+  "simulacro": {
+   "text": "SIMULACRO",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/simulacro.mp4"
+  },
+  "sismo": {
+   "text": "SISMO",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/sismo.mp4"
+  },
+  "sistema_de_alerta_temprana": {
+   "text": "SISTEMA DE ALERTA TEMPRANA",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/sistema_de_alerta_temprana.mp4"
+  },
+  "sna": {
+   "text": "SNA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/sna.mp4"
+  },
+  "sobre": {
+   "text": "SOBRE",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/sobre.mp4"
+  },
+  "sobrino_sobrina": {
+   "text": "SOBRINO/SOBRINA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/sobrino_sobrina.mp4"
+  },
+  "solicitud": {
+   "text": "SOLICITUD",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/solicitud.mp4"
+  },
+  "solo_sola": {
+   "text": "SOLO/SOLA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/solo_sola.mp4"
+  },
+  "sombrero": {
+   "text": "SOMBRERO",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1",
+   "clip": "clips/sombrero.mp4"
+  },
+  "sonar": {
+   "text": "SOÑAR",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/sonar.mp4"
+  },
+  "sopa": {
+   "text": "SOPA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/sopa.mp4"
+  },
+  "sorbete": {
+   "text": "SORBETE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/sorbete.mp4"
+  },
+  "sordo_sorda": {
+   "text": "SORDO/SORDA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/sordo_sorda.mp4"
+  },
+  "sorpresa_sorprender": {
+   "text": "SORPRESA/SORPRENDER",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/sorpresa_sorprender.mp4"
+  },
+  "sucio_sucia": {
+   "text": "SUCIO/SUCIA",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/sucio_sucia.mp4"
+  },
+  "sueno": {
+   "text": "SUEÑO",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/sueno.mp4"
+  },
+  "suerte": {
+   "text": "SUERTE",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/suerte.mp4"
+  },
+  "supermercado": {
+   "text": "SUPERMERCADO",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/supermercado.mp4"
+  },
+  "susto": {
+   "text": "SUSTO",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/susto.mp4"
+  },
+  "t_z_1": {
+   "text": "T-Z-1",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/t_z_1.mp4"
+  },
+  "tabla": {
+   "text": "TABLA",
+   "signer": "hombrerojo",
+   "title": "Configuración b palma, vídeo 1.3, curso básico de lenguaje de señas",
+   "clip": "clips/tabla.mp4"
+  },
+  "talvez": {
+   "text": "TALVEZ",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.4",
+   "clip": "clips/talvez.mp4"
+  },
+  "tapa": {
+   "text": "TAPA",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6 VÍDEO  2-4, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/tapa.mp4"
+  },
+  "taxi": {
+   "text": "TAXI",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/taxi.mp4"
+  },
+  "te": {
+   "text": "TE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/te.mp4"
+  },
+  "teatro": {
+   "text": "TEATRO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/teatro.mp4"
+  },
+  "tela": {
+   "text": "TELA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN 1X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS     vid 7 1X",
+   "clip": "clips/tela.mp4"
+  },
+  "telefono": {
+   "text": "TELÉFONO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/telefono.mp4"
+  },
+  "televisor": {
+   "text": "TELEVISOR",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/televisor.mp4"
+  },
+  "temblor": {
+   "text": "TEMBLOR",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/temblor.mp4"
+  },
+  "tener": {
+   "text": "TENER",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/tener.mp4"
+  },
+  "tengo": {
+   "text": "TENGO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/tengo.mp4"
+  },
+  "terremoto": {
+   "text": "TERREMOTO",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/terremoto.mp4"
+  },
+  "tijera": {
+   "text": "TIJERA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/tijera.mp4"
+  },
+  "tijera_de_jardineria": {
+   "text": "TIJERA DE JARDINERÍA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/tijera_de_jardineria.mp4"
+  },
+  "tio_tia": {
+   "text": "TÍO/TÍA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/tio_tia.mp4"
+  },
+  "tiza": {
+   "text": "TIZA",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/tiza.mp4"
+  },
+  "toalla": {
+   "text": "TOALLA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/toalla.mp4"
+  },
+  "tomar_beber": {
+   "text": "TOMAR/BEBER",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN C, VÍDEO 5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/tomar_beber.mp4"
+  },
+  "tomate": {
+   "text": "TOMATE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN GARRA, VÍDEO  6-1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/tomate.mp4"
+  },
+  "tonto_tonta": {
+   "text": "TONTO/TONTA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/tonto_tonta.mp4"
+  },
+  "tortuga": {
+   "text": "TORTUGA",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/tortuga.mp4"
+  },
+  "trabajo_trabajar": {
+   "text": "TRABAJO/TRABAJAR",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/trabajo_trabajar.mp4"
+  },
+  "tractor": {
+   "text": "TRACTOR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.2 AS6",
+   "clip": "clips/tractor.mp4"
+  },
+  "traer": {
+   "text": "TRAER",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/traer.mp4"
+  },
+  "trampa_tramposo_tramposa": {
+   "text": "TRAMPA/TRAMPOSO/TRAMPOSA",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/trampa_tramposo_tramposa.mp4"
+  },
+  "trece": {
+   "text": "TRECE",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/trece.mp4"
+  },
+  "treinta": {
+   "text": "TREINTA",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/treinta.mp4"
+  },
+  "tres": {
+   "text": "TRES",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/tres.mp4"
+  },
+  "triste": {
+   "text": "TRISTE",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/triste.mp4"
+  },
+  "troh": {
+   "text": "TROH",
+   "signer": "hombrenegro",
+   "title": "CURSO DE LENGUAJE DE SEÑAS VID 10  CONFIGURACIÓN PICO",
+   "clip": "clips/troh.mp4"
+  },
+  "tsunami": {
+   "text": "TSUNAMI",
+   "signer": "hombrenegro",
+   "title": "Curso Lenguaje de Señas \"Vocabulario Genérico de la Gestión Integral del Riesgo -GIR\"",
+   "clip": "clips/tsunami.mp4"
+  },
+  "tuyo_tuya": {
+   "text": "TUYO/TUYA",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/tuyo_tuya.mp4"
+  },
+  "u": {
+   "text": "U",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/u.mp4"
+  },
+  "universidad": {
+   "text": "UNIVERSIDAD",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 11. CONFIGURACIÓN  HNU",
+   "clip": "clips/universidad.mp4"
+  },
+  "uno": {
+   "text": "UNO",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/uno.mp4"
+  },
+  "usado": {
+   "text": "USADO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2.1 AS6",
+   "clip": "clips/usado.mp4"
+  },
+  "v": {
+   "text": "V",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/v.mp4"
+  },
+  "vaca": {
+   "text": "VACA",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/vaca.mp4"
+  },
+  "vacaciones": {
+   "text": "VACACIONES",
+   "signer": "hombrenegro",
+   "title": "VID 4.2 CONFIGURACIÓN 4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/vacaciones.mp4"
+  },
+  "vaga_vago": {
+   "text": "VAGA/VAGO",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/vaga_vago.mp4"
+  },
+  "valiente": {
+   "text": "VALIENTE",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN  C, VÍDEO 5.1 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/valiente.mp4"
+  },
+  "veinte": {
+   "text": "VEINTE",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/veinte.mp4"
+  },
+  "veintiuno": {
+   "text": "VEINTIUNO",
+   "signer": "hombrerojo",
+   "title": "CONFIGURACIÓN NÚMEROS, CURSO BÁSICO DE LENGUAJE DE SEÑAS.",
+   "clip": "clips/veintiuno.mp4"
+  },
+  "venado": {
+   "text": "VENADO",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/venado.mp4"
+  },
+  "vender": {
+   "text": "VENDER",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN X, VÍDEO 7, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/vender.mp4"
+  },
+  "ventana": {
+   "text": "VENTANA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.5",
+   "clip": "clips/ventana.mp4"
+  },
+  "ver": {
+   "text": "VER",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/ver.mp4"
+  },
+  "verano": {
+   "text": "VERANO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/verano.mp4"
+  },
+  "verdad": {
+   "text": "VERDAD",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3",
+   "clip": "clips/verdad.mp4"
+  },
+  "verde": {
+   "text": "VERDE",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/verde.mp4"
+  },
+  "verguenza": {
+   "text": "VERGÜENZA",
+   "signer": "hombrenegro",
+   "title": "VÍDEO 4, CONFIGURACIÓN 4.5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/verguenza.mp4"
+  },
+  "video": {
+   "text": "VIDEO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 13 CONFIGURACIÓN CÍRCULO",
+   "clip": "clips/video.mp4"
+  },
+  "viejo_vieja": {
+   "text": "VIEJO/VIEJA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/viejo_vieja.mp4"
+  },
+  "viento": {
+   "text": "VIENTO",
+   "signer": "hombrenegro",
+   "title": "VIDEO 4.1  CONFIGUARCIÓN  4-5 CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/viento.mp4"
+  },
+  "viernes": {
+   "text": "VIERNES",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/viernes.mp4"
+  },
+  "visita_visitar": {
+   "text": "VISITA/VISITAR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/visita_visitar.mp4"
+  },
+  "vivir": {
+   "text": "VIVIR",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/vivir.mp4"
+  },
+  "volcan": {
+   "text": "VOLCÁN",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN CERO",
+   "clip": "clips/volcan.mp4"
+  },
+  "vomito_vomitar": {
+   "text": "VOMITO/VOMITAR",
+   "signer": "mujerbeige",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.1",
+   "clip": "clips/vomito_vomitar.mp4"
+  },
+  "vos_tu": {
+   "text": "VOS/TU",
+   "signer": "hombrenegro",
+   "title": "TZ1 VID 3 2",
+   "clip": "clips/vos_tu.mp4"
+  },
+  "voz": {
+   "text": "VOZ",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS VID 12 CONFIGURACIÓN V2",
+   "clip": "clips/voz.mp4"
+  },
+  "w": {
+   "text": "W",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/w.mp4"
+  },
+  "x": {
+   "text": "ХX",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/x.mp4"
+  },
+  "x_cerrada": {
+   "text": "X - CERRADA",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIONES MANUALES, CURSO BÁSICO DE LENGUAJE DE SEÑAS",
+   "clip": "clips/x_cerrada.mp4"
+  },
+  "xiloa": {
+   "text": "XILOA",
+   "signer": "hombrerojo",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA 1.2",
+   "clip": "clips/xiloa.mp4"
+  },
+  "y": {
+   "text": "Y",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/y.mp4"
+  },
+  "yerno": {
+   "text": "YERNO",
+   "signer": "hombrejoven",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS CONFIGURACIÓN  IJY",
+   "clip": "clips/yerno.mp4"
+  },
+  "yo": {
+   "text": "YO",
+   "signer": "hombrenegro",
+   "title": "CONFIGURACIÓN TZ1 3.1",
+   "clip": "clips/yo.mp4"
+  },
+  "yuca": {
+   "text": "YUCA",
+   "signer": "mujerroja",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN B-PALMA  1.6",
+   "clip": "clips/yuca.mp4"
+  },
+  "z": {
+   "text": "Z",
+   "signer": "mujerbeige",
+   "title": "ALFABETO MANUAL, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/z.mp4"
+  },
+  "zanahoria": {
+   "text": "ZANAHORIA",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN 2 AS6",
+   "clip": "clips/zanahoria.mp4"
+  },
+  "zancudo_mosquito": {
+   "text": "ZANCUDO/MOSQUITO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS, CONFIGURACIÓN F, vid 9.",
+   "clip": "clips/zancudo_mosquito.mp4"
+  },
+  "zapatos": {
+   "text": "ZAPATOS",
+   "signer": "hombrejoven",
+   "title": "CONFIGURACIÓN AS6, VÍDEO  2-3, CURSO BÁSICO LENGUAJE DE SEÑAS",
+   "clip": "clips/zapatos.mp4"
+  },
+  "zorro": {
+   "text": "ZORRO",
+   "signer": "hombrenegro",
+   "title": "CURSO BÁSICO DE LENGUAJE DE SEÑAS - Configuración Capullo",
+   "clip": "clips/zorro.mp4"
+  }
+ }
+}
