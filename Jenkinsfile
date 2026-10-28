@@ -57,6 +57,10 @@ print('api OK')"
                                  model/reference.json model/metrics.json; do
                             test -s "/usr/share/nginx/html/$f"
                         done
+                        # las cabeceras de seguridad llegan a la página principal
+                        nginx
+                        wget -qS -O /dev/null http://127.0.0.1/ 2>&1 | grep -q "Content-Security-Policy"
+                        wget -qS -O /dev/null http://127.0.0.1/index.html 2>&1 | grep -q "X-Frame-Options"
                         echo "web OK"
                     '
                 '''
