@@ -1,196 +1,90 @@
+// Despliegue en chepe-vps con el mismo esquema que los demás servicios:
+// imagen → registro local → chepe-release (verifica salud y revierte solo).
+// Dos servicios: lenguaje-api (Flask) y lenguaje-web (nginx con web/).
 pipeline {
-    agent any
-
+    agent { label 'chepe-ci-rootless' }
     options {
         timestamps()
-        timeout(time: 30, unit: 'MINUTES')
-        disableConcurrentBuilds()
-        buildDiscarder(logRotator(numToKeepStr: '20', artifactNumToKeepStr: '5'))
         ansiColor('xterm')
+        timeout(time: 30, unit: 'MINUTES')
+        buildDiscarder(logRotator(numToKeepStr: '10'))
+        disableConcurrentBuilds()
     }
-
     environment {
-        REGISTRY       = 'ghcr.io'
-        IMAGE_NAMESPACE = 'bymatt10'
-        IMAGE_NAME      = 'lengua-lsp'
-        DOCKER_BUILDKIT = '1'
-        COMPOSE_PROJECT_NAME = 'lengua-lsp'
+        APP_NAME = 'lenguaje'
+        REGISTRY = '127.0.0.1:5055/chepe-ci'
     }
-
-    parameters {
-        string(name: 'TAG', defaultValue: '', description: 'Tag de la imagen (vacío = número de build o branch)')
-        choice(name: 'DEPLOY_ENV', choices: ['staging', 'production'], description: 'Entorno destino')
-        booleanParam(name: 'DEPLOY', defaultValue: true, description: 'Desplegar tras construir')
-    }
-
     stages {
-
         stage('Checkout') {
             steps {
                 checkout scm
                 script {
-                    env.GIT_COMMIT_SHORT = sh(script: "git rev-parse --short HEAD", returnStdout: true).trim()
-                    env.GIT_BRANCH = sh(script: "git rev-parse --abbrev-ref HEAD", returnStdout: true).trim()
-                    env.TAG = params.TAG?.trim() ?: "${env.GIT_BRANCH}-${env.BUILD_NUMBER}-${env.GIT_COMMIT_SHORT}"
+                    env.GIT_SHA = sh(returnStdout: true, script: 'git rev-parse --short=7 HEAD').trim()
+                    env.IMAGE_TAG = "${env.BUILD_NUMBER}-${env.GIT_SHA}"
                 }
             }
         }
-
-        stage('Lint') {
+        stage('Docker Build') {
             parallel {
-                stage('ruff') {
-                    steps {
-                        sh '''
-                            python3 -m venv .venv-lint || true
-                            . .venv-lint/bin/activate
-                            pip install -q ruff==0.7.4
-                            ruff check server.py validate_contrib.py logging_config.py auto_retrain.py tools/
-                        '''
-                    }
+                stage('api') {
+                    steps { sh 'docker build -t "$APP_NAME-api:$IMAGE_TAG" -f Dockerfile .' }
                 }
-                stage('docker compose config') {
-                    steps {
-                        sh 'docker compose config -q'
-                    }
+                stage('web') {
+                    steps { sh 'docker build -t "$APP_NAME-web:$IMAGE_TAG" -f docker/web/Dockerfile .' }
                 }
             }
         }
-
-        stage('Audit deps') {
-            when { changeRequest() }
+        stage('Validate') {
             steps {
+                // la API responde /health y rechaza contribuciones sin token
                 sh '''
-                    python3 -m venv .venv-audit || true
-                    . .venv-audit/bin/activate
-                    pip install -q pip-audit==2.7.3
-                    pip-audit -r requirements.txt || true
+                    docker run --rm --network none -e LSN_SECRET=ci-only -e FLASK_ENV=production \
+                        "$APP_NAME-api:$IMAGE_TAG" python -c "
+import server
+c = server.app.test_client()
+assert c.get('/health').status_code == 200
+assert c.post('/contribute', json={}).status_code == 401
+print('api OK')"
+                '''
+                // nginx válido y el modelo + self-test presentes en la web
+                sh '''
+                    docker run --rm --network none "$APP_NAME-web:$IMAGE_TAG" sh -ec '
+                        nginx -t
+                        for f in index.html app.js style.css words.json lessons.json signs_anim.json \
+                                 model/weights.bin model/weights_spec.json model/centroids.json \
+                                 model/reference.json model/metrics.json; do
+                            test -s "/usr/share/nginx/html/$f"
+                        done
+                        echo "web OK"
+                    '
                 '''
             }
         }
-
-        stage('Build images') {
-            parallel {
-                stage('app') {
-                    steps {
-                        sh "docker build -t ${REGISTRY}/${IMAGE_NAMESPACE}/${IMAGE_NAME}/app:${TAG} -f Dockerfile ."
-                    }
-                }
-                stage('nginx') {
-                    steps {
-                        sh "docker build -t ${REGISTRY}/${IMAGE_NAMESPACE}/${IMAGE_NAME}/nginx:${TAG} -f docker/nginx/Dockerfile ."
-                    }
-                }
-                stage('cron') {
-                    steps {
-                        sh "docker build -t ${REGISTRY}/${IMAGE_NAMESPACE}/${IMAGE_NAME}/cron:${TAG} -f docker/cron/Dockerfile ."
-                    }
-                }
+        stage('Publish images') {
+            steps {
+                sh '''
+                    set -eu
+                    for svc in api web; do
+                        ref="$REGISTRY/$APP_NAME-$svc"
+                        docker tag "$APP_NAME-$svc:$IMAGE_TAG" "$ref:$IMAGE_TAG"
+                        docker push "$ref:$IMAGE_TAG"
+                        docker image inspect "$ref:$IMAGE_TAG" --format '{{range .RepoDigests}}{{println .}}{{end}}' \
+                            | awk -F@ -v repo="$ref" '$1 == repo {print $2}' > ".digest-$svc"
+                        test "$(wc -l < ".digest-$svc")" -eq 1
+                    done
+                '''
             }
         }
-
-        stage('Push images') {
-            when { anyOf { branch 'main'; branch 'master'; branch 'release/*'; tag pattern: 'v\\d+\\.\\d+\\.\\d+', comparator: 'REGEXP' } }
+        stage('Deploy & Verify') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'github-container-registry', usernameVariable: 'GH_USER', passwordVariable: 'GH_TOKEN')]) {
-                    sh """
-                        echo "\$GH_TOKEN" | docker login ${REGISTRY} -u \$GH_USER --password-stdin
-                        for svc in app nginx cron; do
-                            docker push ${REGISTRY}/${IMAGE_NAMESPACE}/${IMAGE_NAME}/\$svc:${TAG}
-                            docker tag  ${REGISTRY}/${IMAGE_NAMESPACE}/${IMAGE_NAME}/\$svc:${TAG} ${REGISTRY}/${IMAGE_NAMESPACE}/${IMAGE_NAME}/\$svc:latest
-                            docker push ${REGISTRY}/${IMAGE_NAMESPACE}/${IMAGE_NAME}/\$svc:latest
-                        done
-                    """
-                }
-            }
-        }
-
-        stage('Deploy') {
-            when {
-                allOf {
-                    expression { return params.DEPLOY }
-                    anyOf { branch 'main'; branch 'master'; tag pattern: 'v\\d+\\.\\d+\\.\\d+', comparator: 'REGEXP' }
-                }
-            }
-            matrix {
-                axes {
-                    axis { name 'TARGET'; values 'staging', 'production' }
-                }
-                when { not { anyOf { branch 'main'; branch 'master' } } }
-                stages { stage('skip') { steps { echo "No-op for ${TARGET}" } } }
-            }
-            steps {
-                script {
-                    def host = (params.DEPLOY_ENV == 'production')
-                        ? 'lenguaje.chepeonline.com'
-                        : 'staging.chepeonline.com'
-                    def remoteDir = "/srv/${COMPOSE_PROJECT_NAME}"
-                    def composeFile = (params.DEPLOY_ENV == 'production') ? 'docker-compose.yml' : 'docker-compose.staging.yml'
-
-                    sshagent(credentials: ['vps-ssh-key']) {
-                        sh """
-                            ssh -o StrictHostKeyChecking=accept-new ${params.DEPLOY_ENV}@${host} "
-                                set -e
-                                cd ${remoteDir}
-                                export TAG=${TAG}
-                                export LSN_SECRET=\$(cat .env | grep '^LSN_SECRET=' | cut -d= -f2)
-                                export LSN_SESSION_TTL=\$(cat .env | grep '^LSN_SESSION_TTL=' | cut -d= -f2)
-                                export LSN_RETENTION_DAYS=\$(cat .env | grep '^LSN_RETENTION_DAYS=' | cut -d= -f2)
-
-                                docker compose -f ${composeFile} -p ${COMPOSE_PROJECT_NAME}-${params.DEPLOY_ENV} pull
-                                docker compose -f ${composeFile} -p ${COMPOSE_PROJECT_NAME}-${params.DEPLOY_ENV} up -d --remove-orphans
-                                docker compose -f ${composeFile} -p ${COMPOSE_PROJECT_NAME}-${params.DEPLOY_ENV} ps
-                                docker image prune -f
-                            "
-                        """
-                    }
-                }
-            }
-        }
-
-        stage('Smoke test') {
-            when {
-                allOf {
-                    expression { return params.DEPLOY }
-                    anyOf { branch 'main'; branch 'master'; tag pattern: 'v\\d+\\.\\d+\\.\\d+', comparator: 'REGEXP' }
-                }
-            }
-            steps {
-                script {
-                    def url = (params.DEPLOY_ENV == 'production')
-                        ? 'https://lenguaje.chepeonline.com/health'
-                        : 'https://staging.chepeonline.com/health'
-                    sh """
-                        sleep 10
-                        for i in 1 2 3 4 5; do
-                            if curl -fsS -o /dev/null -w '%{http_code}' ${url} | grep -q '^200$'; then
-                                echo 'smoke test OK'
-                                exit 0
-                            fi
-                            echo "intento \$i/5 falló; esperando 10s"
-                            sleep 10
-                        done
-                        exit 1
-                    """
-                }
+                // primero la API: la web nueva puede depender de ella
+                sh '/usr/local/bin/chepe-release lenguaje-api "$(cat .digest-api)" "$IMAGE_TAG"'
+                sh '/usr/local/bin/chepe-release lenguaje-web "$(cat .digest-web)" "$IMAGE_TAG"'
             }
         }
     }
-
     post {
-        success {
-            echo "Build ${env.TAG} OK"
-        }
-        failure {
-            echo "Build ${env.TAG} falló"
-        }
-        always {
-            sh '''
-                docker image prune -f || true
-                rm -rf .venv-lint .venv-audit || true
-            '''
-        }
-        cleanup {
-            cleanWs(deleteDirs: true, patterns: [[pattern: '.venv-*', type: 'INCLUDE']])
-        }
+        success { echo 'lenguaje-api y lenguaje-web desplegados y verificados por chepe-release.' }
+        cleanup { cleanWs() }
     }
 }

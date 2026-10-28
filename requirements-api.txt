@@ -1,0 +1,6 @@
+# Dependencias de la imagen de la API (server.py). La inferencia corre en el
+# navegador: aquí no hacen falta TensorFlow, MediaPipe ni OpenCV.
+Flask==3.0.3
+flask-limiter==3.8.0
+itsdangerous==2.2.0
+gunicorn==23.0.0

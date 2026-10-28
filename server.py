@@ -43,8 +43,14 @@ CONTRIB_PATH = os.path.join(ROOT_PATH, 'dataset_contrib')
 QUARANTINE_PATH = os.path.join(CONTRIB_PATH, 'quarantine')
 SAFE_NAME = re.compile(r'[^a-z0-9]+')
 
+def _rate_key():
+    # detrás de Cloudflare Tunnel + proxies, remote_addr es el nginx interno:
+    # Cloudflare siempre fija CF-Connecting-IP con la IP real del visitante
+    return request.headers.get('CF-Connecting-IP') or get_remote_address()
+
+
 limiter = Limiter(
-    key_func=get_remote_address,
+    key_func=_rate_key,
     app=app,
     default_limits=['200 per hour'],
     storage_uri='memory://',
@@ -52,6 +58,8 @@ limiter = Limiter(
 
 
 def _client_ip():
+    if request.headers.get('CF-Connecting-IP'):
+        return request.headers['CF-Connecting-IP']
     fwd = request.headers.get('X-Forwarded-For')
     if fwd:
         return fwd.split(',')[0].strip()
