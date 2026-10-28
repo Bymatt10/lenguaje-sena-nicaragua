@@ -44,36 +44,41 @@ RH_START = LH_START + N_HAND * 3  # 162
 
 
 # ---------- extracción de features (espejo exacto de web/app.js) ----------
-def extract_features(results):
-    '''225 features normalizadas, o None si no hay pose o no hay manos.'''
+def extract_features(results, aspect=1.0):
+    '''225 features normalizadas, o None si no hay pose o no hay manos.
+
+    MediaPipe da x en fracciones del ancho e y del alto: `aspect` (ancho/alto)
+    lleva x y z a unidades del alto, para que un video 16:9 y una webcam 4:3
+    produzcan las mismas features para la misma seña.'''
     if not results.pose_landmarks:
         return None
     if not results.left_hand_landmarks and not results.right_hand_landmarks:
         return None
 
     pose = results.pose_landmarks.landmark
-    cx = (pose[11].x + pose[12].x) / 2
+    cx = (pose[11].x + pose[12].x) / 2 * aspect
     cy = (pose[11].y + pose[12].y) / 2
-    s = max(np.hypot(pose[11].x - pose[12].x, pose[11].y - pose[12].y), 1e-3)
+    s = max(np.hypot((pose[11].x - pose[12].x) * aspect, pose[11].y - pose[12].y), 1e-3)
 
     feats = np.zeros(FEATURES, dtype=np.float32)
     for i, p in enumerate(pose):
-        feats[i * 3] = (p.x - cx) / s
+        feats[i * 3] = (p.x * aspect - cx) / s
         feats[i * 3 + 1] = (p.y - cy) / s
-        feats[i * 3 + 2] = p.z / s
+        feats[i * 3 + 2] = p.z * aspect / s
     for start, hand in ((LH_START, results.left_hand_landmarks),
                         (RH_START, results.right_hand_landmarks)):
         if hand:
             for i, p in enumerate(hand.landmark):
-                feats[start + i * 3] = (p.x - cx) / s
+                feats[start + i * 3] = (p.x * aspect - cx) / s
                 feats[start + i * 3 + 1] = (p.y - cy) / s
-                feats[start + i * 3 + 2] = p.z / s
+                feats[start + i * 3 + 2] = p.z * aspect / s
     return feats
 
 
 def video_to_sequence(video_path, holistic, cache_suffix=''):
     # caché: extraer keypoints con MediaPipe es lo lento; se guarda junto al video
-    cache = video_path + cache_suffix + '.npy'
+    # sufijo .ar: features corregidas por aspecto (los .npy viejos no lo están)
+    cache = video_path + cache_suffix + '.ar.npy'
     if os.path.exists(cache) and os.path.getmtime(cache) >= os.path.getmtime(video_path):
         return np.load(cache)
 
@@ -84,7 +89,8 @@ def video_to_sequence(video_path, holistic, cache_suffix=''):
         ret, frame = cap.read()
         if not ret:
             break
-        feats = extract_features(mediapipe_detection(frame, holistic))
+        h, w = frame.shape[:2]
+        feats = extract_features(mediapipe_detection(frame, holistic), aspect=w / h)
         if feats is not None:
             seq.append(feats)
     cap.release()
@@ -267,11 +273,29 @@ def export_openset(model, X, y_labels, out_path):
 
 
 # ---------- entrenamiento ----------
+def stratified_split(X, y, test_size, rng):
+    '''Como sklearn.train_test_split(stratify=...) sin depender de scipy.
+    Solo sirve para el early stopping: el val incluye variantes aumentadas de
+    las mismas tomas, así que su exactitud está inflada (ver evaluate_loso.py).'''
+    labels = y.argmax(axis=1)
+    val_idx = []
+    for c in np.unique(labels):
+        idx = rng.permutation(np.flatnonzero(labels == c))
+        val_idx.extend(idx[:max(1, int(round(len(idx) * test_size)))])
+    mask = np.zeros(len(X), dtype=bool)
+    mask[val_idx] = True
+    return X[~mask], X[mask], y[~mask], y[mask]
+
+
+def read_vocab(path):
+    '''Una palabra por línea; '#' para comentarios.'''
+    return [w.strip() for w in open(path, encoding='utf-8') if w.strip() and not w.startswith('#')]
+
+
 def main(cfg=None):
     from mediapipe.python.solutions.holistic import Holistic
     from keras.callbacks import EarlyStopping
     from keras.utils import to_categorical
-    from sklearn.model_selection import train_test_split
 
     cfg = cfg or {}
     frames = cfg.get('frames', MODEL_FRAMES)
@@ -279,6 +303,10 @@ def main(cfg=None):
 
     words = sorted(w for w in os.listdir(DATASET_PATH)
                    if os.path.isdir(os.path.join(DATASET_PATH, w)))
+    if cfg.get('vocab'):
+        # el curso trae ~700 palabras: el modelo se entrena con un vocabulario elegido
+        wanted = set(read_vocab(cfg['vocab']))
+        words = [w for w in words if w in wanted]
     print(f'Palabras ({len(words)}): {words}')
 
     X, y = [], []
@@ -326,8 +354,7 @@ def main(cfg=None):
     y = to_categorical(y, num_classes=len(words))
     print(f'Dataset: {X.shape} (muestras, frames, features)')
 
-    X_train, X_val, y_train, y_val = train_test_split(
-        X, y, test_size=0.15, random_state=SEED, stratify=y.argmax(axis=1))
+    X_train, X_val, y_train, y_val = stratified_split(X, y, 0.15, rng)
 
     model = build_model(len(words), frames=frames,
                         bidirectional=cfg.get('bidirectional', False),
@@ -354,7 +381,7 @@ def main(cfg=None):
             f.write(arr.tobytes())
     with open(os.path.join(WEB_MODEL_DIR, 'weights_spec.json'), 'w') as f:
         json.dump({'frames': frames, 'keypoints': MODEL_FEATURES,
-                   'static': FEATURES, 'version': 3, 'shapes': spec}, f)
+                   'static': FEATURES, 'version': 3, 'aspect': True, 'shapes': spec}, f)
 
     export_openset(model, X, y.argmax(axis=1),
                    os.path.join(WEB_MODEL_DIR, 'centroids.json'))
@@ -378,4 +405,7 @@ def main(cfg=None):
 
 
 if __name__ == '__main__':
-    main()
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--vocab', help='archivo con el vocabulario a entrenar (default: todas las carpetas)')
+    main({'vocab': ap.parse_args().vocab})

@@ -1,0 +1,23 @@
+{
+ "method": "repeticiones",
+ "headline": {
+  "value": 0.8833,
+  "label": "top-1 en repetición no vista (mismo señante)"
+ },
+ "top3": 0.95,
+ "chance": 0.0333,
+ "classes": 30,
+ "signers": 5,
+ "folds": {
+  "r1 → r2": 0.8333,
+  "r2 → r1": 0.9333
+ },
+ "confused": [
+  "buenos_dias",
+  "farmacia",
+  "inundacion",
+  "necesitar",
+  "temblor"
+ ],
+ "data_summary": "30 señas del Curso Básico de Lenguaje de Señas (CD-SINAPRED/ANSNIC), 5 señantes; cada seña aparece dos veces seguidas por la misma persona. Los clips se cortaron automáticamente leyendo con OCR el cartel con la palabra y se aumentaron ×60 (recortes temporales, espejo, rotación, escala y ruido)."
+}
